@@ -1,0 +1,4 @@
+# Local research checkouts and disposable artifacts
+**/tmp/
+**/__pycache__/
+*.pyc

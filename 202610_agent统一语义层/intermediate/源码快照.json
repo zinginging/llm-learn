@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-14",
+  "projects": [
+    {
+      "name": "cube",
+      "url": "https://github.com/cube-js/cube.git",
+      "commit": "91dfc3b1bf761e87f2914598a68e49801ec6c63a",
+      "commit_time": "2026-10-14T00:57:01+01:00",
+      "shallow": true
+    },
+    {
+      "name": "metricflow",
+      "url": "https://github.com/dbt-labs/metricflow.git",
+      "commit": "fe4b8c1ccb72a8ca77494b345777eff20a714119",
+      "commit_time": "2026-10-13T10:38:40-07:00",
+      "shallow": true
+    },
+    {
+      "name": "wrenai",
+      "url": "https://github.com/Canner/WrenAI.git",
+      "commit": "13e8bd3654534c528715e0bb6fa687caca25ebd4",
+      "commit_time": "2026-10-14T14:50:26+08:00",
+      "shallow": true
+    },
+    {
+      "name": "ossie",
+      "url": "https://github.com/apache/ossie.git",
+      "commit": "c91b5decf3f4c120640f493bf3532dcd1625f6e4",
+      "commit_time": "2026-10-14T08:38:00+01:00",
+      "shallow": true
+    }
+  ]
+}

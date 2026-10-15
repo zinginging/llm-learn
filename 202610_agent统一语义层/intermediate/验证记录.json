@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "python": "3.12.14",
+  "wren_dependencies": {"wren-core-py": "0.8.0", "sqlglot": "29.0.1", "duckdb": "1.5.0", "pytest": "9.1.1"},
+  "ossie_validator_dependencies": {"pytest": "9.1.1", "jsonschema": "4.26.0", "pyyaml": "6.0.3", "sqlglot": "30.22.0"},
+  "runs": [
+    {"project": "wrenai", "scope": "tests/unit/test_policy.py", "passed": 83, "seconds": 3.51, "exit_code": 0},
+    {"project": "wrenai", "scope": "tests/unit/test_engine.py", "passed": 11, "seconds": 0.37, "exit_code": 0},
+    {"project": "wrenai", "scope": "scripts/wren_golden_case.py", "correct_cents": {"A": 27000, "B": 25000}, "naive_join_cents": {"A": 54000, "B": 50000}, "unknown_table_blocked": true, "exit_code": 0},
+    {"project": "ossie", "scope": "validation/test_validate.py validation/tests", "passed": 244, "subtests_passed": 26, "seconds": 10.26, "exit_code": 0},
+    {"project": "ossie", "scope": "python tests", "passed": 174, "seconds": 0.52, "exit_code": 0}
+  ],
+  "limits": ["Cube and MetricFlow were statically inspected only", "Wren Rust was consumed as a prebuilt wheel, not built from the checkout", "No production identity, row-column access-control integration or performance benchmark was run", "Ossie validator dependencies are resolved via uv --with; other tested packages use upstream lockfiles"],
+  "resolved_setup_issues": ["Moved uv cache from read-only home to ignored topic tmp", "Used pytest importlib mode and PYTHONPATH=validation to collect duplicate test basenames", "Converted integral Decimal outputs to JSON integers in the golden-case script after result assertions passed"]
+}
