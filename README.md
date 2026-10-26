@@ -13,6 +13,7 @@
 | Agent 统一语义层 | Cube、MetricFlow、WrenAI、Ossie 架构与选型 | [四项目对比调研](202610_agent统一语义层/README.md) |
 | LangChain 与 LangGraph | Agent 框架、状态编排、工具调用与跨进程恢复 | [深度学习指南](202610_langchain与langgraph学习/README.md) |
 | Tool、Function Calling、MCP 与 Skill | 能力接口、模型调用、连接协议、任务方法与选型 | [原理与选型指南](202610_tool与mcp及skill学习/README.md) |
+| RSI 递归自我改进 | 自修改 Agent、权重适应、2026 年评测与证据边界 | [深度调研与学习报告](202610_rsi递归自我改进/README.md) |
 
 建议先用 MoE 与 Dense 建立模型基础，再学习 Jev 的概率与决策；随后从 Agent 上下文理解信息如何进入模型，最后用 AI-Ready 数据主题设计可追溯的数据流程。各主题也可独立阅读。
 

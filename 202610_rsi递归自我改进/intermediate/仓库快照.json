@@ -1,0 +1,90 @@
+[
+  {
+    "repository": "microsoft/stop",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/microsoft/stop",
+    "default_branch": "main",
+    "commit": "0d6780c54306b2486dd36e9c4ae9b49aceb27ea4",
+    "commit_time": "2023-12-22T04:02:19Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "MaximeRobeyns/self_improving_coding_agent",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/MaximeRobeyns/self_improving_coding_agent",
+    "default_branch": "master",
+    "commit": "ed8275dca4d3c5dbf77229964351fe9b424797dc",
+    "commit_time": "2025-04-23T23:28:08Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "jennyzzt/dgm",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/jennyzzt/dgm",
+    "default_branch": "main",
+    "commit": "a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+    "commit_time": "2025-08-13T10:40:14Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "Continual-Intelligence/SEAL",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/Continual-Intelligence/SEAL",
+    "default_branch": "main",
+    "commit": "6d9c9f9ee392c6cc618e771f399d436d190f6ca4",
+    "commit_time": "2025-08-01T19:06:40Z",
+    "archived": false,
+    "license_spdx": "MIT",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "google-research/rrsi",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/google-research/rrsi",
+    "default_branch": "main",
+    "commit": "be50316e1db05914068a973f322770ef08ed7ba1",
+    "commit_time": "2026-09-23T22:16:24Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "Gen-Verse/PAST-Bench",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/Gen-Verse/PAST-Bench",
+    "default_branch": "main",
+    "commit": "f8223517ae7491e776b69793d9f11e9d074ab42e",
+    "commit_time": "2026-08-05T01:16:45Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "Einsia/AI4AI-Bench",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/Einsia/AI4AI-Bench",
+    "default_branch": "main",
+    "commit": "5ced1e2eb1882baf52e6d928f9257006aa71968c",
+    "commit_time": "2026-08-21T07:42:54Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  },
+  {
+    "repository": "google-deepmind/alphaevolve_results",
+    "checked_at": "2026-10-26",
+    "url": "https://github.com/google-deepmind/alphaevolve_results",
+    "default_branch": "main",
+    "commit": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+    "commit_time": "2026-01-05T16:13:57Z",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "license_scope": "GitHub repository metadata; not a dependency or model license audit"
+  }
+]

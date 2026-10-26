@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "command": "python 202610_rsi递归自我改进/scripts/evaluation_gate_demo.py",
+  "script_sha256": "b0b5602c92d54eb5935e546ed5f33a390a5578e2a52c0edeb99245c8ce204b28",
+  "exit_code": 0,
+  "output": {
+    "scope": "deterministic evaluation demonstration, not an RSI reproduction",
+    "naive_winner": {
+      "name": "memorize_dev",
+      "dev": 1.0,
+      "gate": 0.0
+    },
+    "promoted": {
+      "name": "confirmed_refunds_only",
+      "dev": 1.0,
+      "gate": 1.0,
+      "audit": 1.0,
+      "baseline_audit": 0.25
+    },
+    "rejected": [
+      {
+        "name": "memorize_dev",
+        "reason": "no_gate_improvement"
+      },
+      {
+        "name": "subtract_all_refunds",
+        "reason": "no_gate_improvement"
+      },
+      {
+        "name": "alter_evaluator",
+        "reason": "protected_artifact"
+      }
+    ],
+    "case_counts": {
+      "dev": 2,
+      "gate": 2,
+      "audit": 4
+    },
+    "limits": [
+      "Candidates are handwritten",
+      "Cost units are invented",
+      "No model or code rewriting",
+      "Gate reused for selection becomes part of meta-development; retain a fresh final audit",
+      "Tiny fixtures provide no statistical or production guarantee"
+    ]
+  },
+  "not_executed": [
+    "Upstream agents",
+    "Paid model APIs",
+    "Model training",
+    "Self-modifying programs",
+    "Production queries"
+  ]
+}

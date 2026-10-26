@@ -1,0 +1,265 @@
+[
+  {
+    "name": "stop",
+    "arxiv_id": "2310.02304",
+    "checked_at": "2026-10-26",
+    "title": [
+      "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation"
+    ],
+    "authors": [
+      "Zelikman, Eric",
+      "Lorch, Eliana",
+      "Mackey, Lester",
+      "Kalai, Adam Tauman"
+    ],
+    "citation_date": [
+      "2023/10/03"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2310.02304"
+    ],
+    "version": "v3",
+    "pdf_sha256": "f1eb66d65763d84367fd380625cf86d66b5dd8e319c46259e7d0aabba9b608e2",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2310.02304v3",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2310.02304v3"
+  },
+  {
+    "name": "sica",
+    "arxiv_id": "2504.15228",
+    "checked_at": "2026-10-26",
+    "title": [
+      "A Self-Improving Coding Agent"
+    ],
+    "authors": [
+      "Robeyns, Maxime",
+      "Szummer, Martin",
+      "Aitchison, Laurence"
+    ],
+    "citation_date": [
+      "2025/04/21"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2504.15228"
+    ],
+    "version": "v2",
+    "pdf_sha256": "97781b82ed43a330f491a35f772360bc3a9e7b47c5817e8889a0e1fec1115a15",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2504.15228v2",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2504.15228v2"
+  },
+  {
+    "name": "dgm",
+    "arxiv_id": "2505.22954",
+    "checked_at": "2026-10-26",
+    "title": [
+      "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents"
+    ],
+    "authors": [
+      "Zhang, Jenny",
+      "Hu, Shengran",
+      "Lu, Cong",
+      "Lange, Robert",
+      "Clune, Jeff"
+    ],
+    "citation_date": [
+      "2025/05/29"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2505.22954"
+    ],
+    "version": "v3",
+    "pdf_sha256": "13ff4abe0c7ad4a7dd3b4876d19a8bf940e39e70dabbf06065aa774a6c3457de",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2505.22954v3",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2505.22954v3"
+  },
+  {
+    "name": "seal",
+    "arxiv_id": "2506.10943",
+    "checked_at": "2026-10-26",
+    "title": [
+      "Self-Adapting Language Models"
+    ],
+    "authors": [
+      "Zweiger, Adam",
+      "Pari, Jyothish",
+      "Guo, Han",
+      "Akyürek, Ekin",
+      "Kim, Yoon",
+      "Agrawal, Pulkit"
+    ],
+    "citation_date": [
+      "2025/06/12"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2506.10943"
+    ],
+    "version": "v2",
+    "pdf_sha256": "3abf83bcf05862d5e6e72078dc0e47ebfcf2e72866e9fdfe1dbc3663c72a9dc6",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2506.10943v2",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2506.10943v2"
+  },
+  {
+    "name": "aide2",
+    "arxiv_id": "2609.26457",
+    "checked_at": "2026-10-26",
+    "title": [
+      "Recursive self-improvement of AI research agents"
+    ],
+    "authors": [
+      "Srikanth, Dhruv",
+      "Zhao, Bingchen",
+      "Xu, Dixing",
+      "Wu, Yuxiang",
+      "Jiang, Zhengyao"
+    ],
+    "citation_date": [
+      "2026/09/22"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2609.26457"
+    ],
+    "version": "v1",
+    "pdf_sha256": "8ba79e0ad1028e43b0a47ee06162c9b3996ec90f7990b7ec35993444e505409b",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2609.26457v1",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2609.26457v1"
+  },
+  {
+    "name": "rrsi",
+    "arxiv_id": "2609.24972",
+    "checked_at": "2026-10-26",
+    "title": [
+      "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses"
+    ],
+    "authors": [
+      "Xia, Peng",
+      "Han, Rujun",
+      "Wang, Zifeng",
+      "Chen, Yanfei",
+      "Zhuang, Yufan",
+      "Lee, Yoonho",
+      "Huang, Chengsong",
+      "Yu, Han",
+      "CuiZhu, Zhongying",
+      "Ming, Yifei",
+      "Yao, Huaxiu",
+      "Gokturk, Burak",
+      "Pfister, Tomas",
+      "Lee, Chen-Yu"
+    ],
+    "citation_date": [
+      "2026/09/21"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2609.24972"
+    ],
+    "version": "v3",
+    "pdf_sha256": "26f8b5417f8a60c9284bb4a36d3981c41b8e071134aea0bf3402fe9584c8cd76",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2609.24972v3",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2609.24972v3"
+  },
+  {
+    "name": "ai4ai",
+    "arxiv_id": "2608.20318",
+    "checked_at": "2026-10-26",
+    "title": [
+      "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement"
+    ],
+    "authors": [
+      "Chi, Yizhe",
+      "Li, Wenyi",
+      "Hong, Deyao",
+      "Wang, Xiaoqiu",
+      "Gao, Mingju",
+      "Yang, Kaisen",
+      "He, Bingxiang",
+      "Zheng, Youjie",
+      "Xiao, Calvin",
+      "Na, Qinhuai"
+    ],
+    "citation_date": [
+      "2026/08/20"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2608.20318"
+    ],
+    "version": "v1",
+    "pdf_sha256": "93029b04f8612f4bfdd221a6f726e86a2d1408cab0a3256866f164e3c3749dfc",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2608.20318v1",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2608.20318v1"
+  },
+  {
+    "name": "past",
+    "arxiv_id": "2608.04003",
+    "checked_at": "2026-10-26",
+    "title": [
+      "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents"
+    ],
+    "authors": [
+      "Xue, Shuhan",
+      "Ding, Zixin",
+      "Shen, Yichen",
+      "Wang, Yinjie",
+      "Yin, Zhenfei",
+      "Wu, Yingcheng",
+      "Chen, Yuxin",
+      "Wang, Mengdi",
+      "Yang, Ling"
+    ],
+    "citation_date": [
+      "2026/08/04"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2608.04003"
+    ],
+    "version": "v1",
+    "pdf_sha256": "12fd35dffe14cb65032e1e193c9fd7a649bd2a5648fcd2d47b6d5bf8fa5a9457",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2608.04003v1",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2608.04003v1"
+  },
+  {
+    "name": "alphaevolve",
+    "arxiv_id": "2506.13131",
+    "checked_at": "2026-10-26",
+    "title": [
+      "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+    ],
+    "authors": [
+      "Novikov, Alexander",
+      "Vũ, Ngân",
+      "Eisenberger, Marvin",
+      "Dupont, Emilien",
+      "Huang, Po-Sen",
+      "Wagner, Adam Zsolt",
+      "Shirobokov, Sergey",
+      "Kozlovskii, Borislav",
+      "Ruiz, Francisco J. R.",
+      "Mehrabian, Abbas",
+      "Kumar, M. Pawan",
+      "See, Abigail",
+      "Chaudhuri, Swarat",
+      "Holland, George",
+      "Davies, Alex",
+      "Nowozin, Sebastian",
+      "Kohli, Pushmeet",
+      "Balog, Matej"
+    ],
+    "citation_date": [
+      "2025/06/16"
+    ],
+    "pdf_url": [
+      "https://arxiv.org/pdf/2506.13131"
+    ],
+    "version": "v1",
+    "pdf_sha256": "f092c8cbd65da89951ee6496374da9a54963f9035758c25ac6e4625f506df9ad",
+    "downloaded": true,
+    "pinned_abstract_url": "https://arxiv.org/abs/2506.13131v1",
+    "pinned_pdf_url": "https://arxiv.org/pdf/2506.13131v1"
+  }
+]
