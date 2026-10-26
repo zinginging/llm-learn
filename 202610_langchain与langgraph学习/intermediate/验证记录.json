@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "packages": {
+    "langchain": "1.4.7",
+    "langchain-core": "1.7.0",
+    "langgraph": "1.2.17",
+    "langgraph-checkpoint": "4.3.0",
+    "langgraph-checkpoint-sqlite": "3.1.2"
+  },
+  "install": "uv pip sync --python tmp/venv/bin/python scripts/requirements.lock",
+  "script_sha256": {
+    "langgraph_checkpoint_flow.py": "5f8e5f23540693fb85bd78dc5bb1687aae8b158e08418f08f9a82bf816415544",
+    "langchain_tool_loop.py": "7f2e9cfedfd525277cbb8f7ef5d045c900917b5f893a866d536cd51ca7ced54b"
+  },
+  "dependency_lock_sha256": "e84b3325c63169dafbaf020a13eac992b732c57183434c775dd7374c19670a00",
+  "runs": [
+    {
+      "command": "LANGSMITH_TRACING=false LANGCHAIN_TRACING_V2=false tmp/venv/bin/python scripts/langchain_tool_loop.py",
+      "exit_code": 0,
+      "output": {
+        "model_visible_parameters": [
+          "month"
+        ],
+        "runs": [
+          {
+            "tenant": "A",
+            "net_cents": 27000,
+            "message_types": [
+              "human",
+              "ai",
+              "tool",
+              "ai"
+            ]
+          },
+          {
+            "tenant": "B",
+            "net_cents": 25000,
+            "message_types": [
+              "human",
+              "ai",
+              "tool",
+              "ai"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "command": "LANGSMITH_TRACING=false LANGCHAIN_TRACING_V2=false tmp/venv/bin/python scripts/langgraph_checkpoint_flow.py",
+      "exit_code": 0,
+      "output": {
+        "separate_process_workers": true,
+        "runs": [
+          {
+            "decision": "yes",
+            "phase": "pause",
+            "status": "paused",
+            "counters": {
+              "approval_entries": 1,
+              "sales_attempts": 0,
+              "refund_calls": 0
+            }
+          },
+          {
+            "decision": "yes",
+            "phase": "resume",
+            "status": "completed",
+            "net_cents": 27000,
+            "counters": {
+              "approval_entries": 1,
+              "sales_attempts": 2,
+              "refund_calls": 1
+            }
+          },
+          {
+            "decision": "no",
+            "phase": "pause",
+            "status": "paused",
+            "counters": {
+              "approval_entries": 1,
+              "sales_attempts": 0,
+              "refund_calls": 0
+            }
+          },
+          {
+            "decision": "no",
+            "phase": "resume",
+            "status": "denied",
+            "net_cents": null,
+            "counters": {
+              "approval_entries": 1,
+              "sales_attempts": 0,
+              "refund_calls": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Real framework execution with a scripted model and synthetic data; SQLite workers run in separate processes.",
+  "not_tested": [
+    "Live model quality and tool selection",
+    "Remote MCP and provider integrations",
+    "Production database authorization",
+    "Abrupt termination during side effects or checkpoint writes",
+    "Performance and throughput",
+    "LangSmith services"
+  ]
+}

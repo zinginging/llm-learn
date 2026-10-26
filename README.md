@@ -11,6 +11,8 @@
 | Agent 上下文建设 | 信息分层、检索、记忆、压缩、论文与评估 | [上下文学习调研](202610_agent上下文建设/README.md) |
 | AI-Ready 数据 | 来源、解析、业务语义、RAG、版本与验收 | [数据建设学习调研](202610_ai-ready数据建设/README.md) |
 | Agent 统一语义层 | Cube、MetricFlow、WrenAI、Ossie 架构与选型 | [四项目对比调研](202610_agent统一语义层/README.md) |
+| LangChain 与 LangGraph | Agent 框架、状态编排、工具调用与跨进程恢复 | [深度学习指南](202610_langchain与langgraph学习/README.md) |
+| Tool、Function Calling、MCP 与 Skill | 能力接口、模型调用、连接协议、任务方法与选型 | [原理与选型指南](202610_tool与mcp及skill学习/README.md) |
 
 建议先用 MoE 与 Dense 建立模型基础，再学习 Jev 的概率与决策；随后从 Agent 上下文理解信息如何进入模型，最后用 AI-Ready 数据主题设计可追溯的数据流程。各主题也可独立阅读。
 

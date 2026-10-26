@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "command": "python 202610_tool与mcp及skill学习/scripts/call_boundary_demo.py",
+  "exit_code": 0,
+  "script_sha256": "107ec20b100d15e951b3b6034b1924319e897f768ff2ef3f76ed856118625bef",
+  "output": {
+    "scope": "normalized local calls; no model or MCP transport",
+    "model_visible_parameters": [
+      "month"
+    ],
+    "backend_reuse_equal": true,
+    "tenant_A": {
+      "tenant": "A",
+      "month": "2026-09",
+      "net_cents": 27000,
+      "unit": "CNY_cent",
+      "definition_version": "teaching-v1"
+    },
+    "tenant_B": {
+      "tenant": "B",
+      "month": "2026-09",
+      "net_cents": 25000,
+      "unit": "CNY_cent",
+      "definition_version": "teaching-v1"
+    },
+    "rejected_cases": [
+      "tenant_spoofing",
+      "unknown_tool",
+      "invalid_month",
+      "no_data",
+      "unauthorized_identity"
+    ]
+  },
+  "scope": "Standard-library normalized-call demonstration only",
+  "not_tested": [
+    "Real model/function calling API",
+    "MCP SDK, transport, discovery, protocol version negotiation or authentication",
+    "Skill loader or activation",
+    "Production authorization and performance"
+  ]
+}
