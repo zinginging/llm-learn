@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-11-09",
+  "scope": "提交身份、包元数据、AST 参数及配置模板静态核对；不包含安装、导入和模型调用",
+  "versions": [
+    {
+      "repository": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "package": "graphrag",
+      "package_version": "3.3.0",
+      "requires_python": ">=3.11,<3.14"
+    },
+    {
+      "repository": "HKUDS/LightRAG",
+      "commit": "abc733b5c4f371fa39b3396b504a7309bd1531ad",
+      "package": "lightrag-hku",
+      "package_version": "1.5.8",
+      "requires_python": ">=3.10"
+    },
+    {
+      "repository": "OSU-NLP-Group/HippoRAG",
+      "commit": "d5c8329422e0a0b834a15874545cb6a74b4f9b26",
+      "package": "hipporag",
+      "package_version": "2.0.0a5",
+      "requires_python": ">=3.10"
+    }
+  ],
+  "interfaces": [
+    {
+      "path": "packages/graphrag/graphrag/cli/main.py",
+      "name": "_initialize_cli",
+      "line": 99,
+      "arguments": [
+        "root",
+        "model",
+        "embedding_model",
+        "force"
+      ]
+    },
+    {
+      "path": "packages/graphrag/graphrag/cli/main.py",
+      "name": "_query_cli",
+      "line": 365,
+      "arguments": [
+        "query",
+        "root",
+        "method",
+        "verbose",
+        "data",
+        "community_level",
+        "dynamic_community_selection",
+        "response_type",
+        "streaming"
+      ]
+    },
+    {
+      "path": "lightrag/lightrag.py",
+      "name": "ainsert",
+      "line": 2310,
+      "arguments": [
+        "self",
+        "input",
+        "split_by_character",
+        "split_by_character_only",
+        "ids",
+        "file_paths",
+        "track_id"
+      ]
+    },
+    {
+      "path": "lightrag/lightrag.py",
+      "name": "aquery",
+      "line": 4843,
+      "arguments": [
+        "self",
+        "query",
+        "param",
+        "system_prompt"
+      ]
+    },
+    {
+      "path": "src/hipporag/HippoRAG.py",
+      "name": "__init__",
+      "line": 88,
+      "arguments": [
+        "self",
+        "global_config",
+        "save_dir",
+        "llm_model_name",
+        "llm_base_url",
+        "embedding_model_name",
+        "embedding_base_url",
+        "azure_endpoint",
+        "azure_embedding_endpoint",
+        "extraction_llm",
+        "qa_llm",
+        "embedding_model",
+        "text_preprocessor",
+        "azure_api_version",
+        "azure_chat_deployment",
+        "azure_embedding_api_version",
+        "azure_embedding_deployment",
+        "index_identity",
+        "embedding_provider",
+        "llm_api_key_env",
+        "embedding_api_key_env"
+      ]
+    },
+    {
+      "path": "src/hipporag/HippoRAG.py",
+      "name": "index",
+      "line": 499,
+      "arguments": [
+        "self",
+        "docs"
+      ]
+    },
+    {
+      "path": "src/hipporag/HippoRAG.py",
+      "name": "retrieve",
+      "line": 704,
+      "arguments": [
+        "self",
+        "queries",
+        "num_to_retrieve",
+        "gold_docs"
+      ]
+    },
+    {
+      "path": "src/hipporag/HippoRAG.py",
+      "name": "rag_qa",
+      "line": 892,
+      "arguments": [
+        "self",
+        "queries",
+        "gold_docs",
+        "gold_answers"
+      ]
+    }
+  ],
+  "lightrag_query_default": "mix",
+  "lightrag_modes": [
+    "local",
+    "global",
+    "hybrid",
+    "naive",
+    "mix",
+    "bypass"
+  ],
+  "graphrag_generated_model_sections": [
+    "completion_models",
+    "embedding_models"
+  ]
+}

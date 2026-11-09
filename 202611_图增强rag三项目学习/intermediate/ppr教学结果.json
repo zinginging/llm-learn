@@ -1,0 +1,47 @@
+{
+  "kind": "人工图教学演算；未调用 HippoRAG 2 或任何模型",
+  "damping": 0.5,
+  "seeds": {
+    "北辰项目": 1
+  },
+  "iterations": 30,
+  "l1_step_difference": 6.665328011745686e-14,
+  "all_node_mass": 1.0,
+  "ranked_passages": [
+    {
+      "source_id": "d1",
+      "score": 0.0828571428571462
+    },
+    {
+      "source_id": "d4",
+      "score": 0.0828571428571462
+    },
+    {
+      "source_id": "d2",
+      "score": 0.014285714285714284
+    },
+    {
+      "source_id": "d5",
+      "score": 0.014285714285714284
+    },
+    {
+      "source_id": "d3",
+      "score": 0.002857142857139531
+    },
+    {
+      "source_id": "d6",
+      "score": 0.002857142857139531
+    }
+  ],
+  "observations": [
+    "旧总部 d3 与新总部 d6 获得相同分数",
+    "图相关性不能替代时间有效性判断"
+  ],
+  "checks": [
+    "two_node_hand_calculation",
+    "tied_scores",
+    "dangling_node_mass",
+    "invalid_seeds",
+    "temporal_counterexample"
+  ]
+}

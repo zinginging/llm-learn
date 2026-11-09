@@ -1,0 +1,23 @@
+[
+  {
+    "name": "graphrag",
+    "url": "https://arxiv.org/pdf/2404.16130v2",
+    "bytes": 6893854,
+    "sha256": "730f1a9f38d16689900969a3eeeb1b31e45eda1dcc1f37a043afa90aff76c867",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "name": "lightrag",
+    "url": "https://aclanthology.org/2025.findings-emnlp.568.pdf",
+    "bytes": 1117455,
+    "sha256": "cdd04718353c5b59c94c0ff810af25c16e7b6c2af390532d8172cb2901f584a7",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "name": "hipporag2",
+    "url": "https://arxiv.org/pdf/2502.14802v2",
+    "bytes": 2498688,
+    "sha256": "90fa6af3ee8298a6c3abef6df0a9b0f092496cb7d6b1c3e8b55c5c8f5b552eb3",
+    "checked_at": "2026-11-09"
+  }
+]

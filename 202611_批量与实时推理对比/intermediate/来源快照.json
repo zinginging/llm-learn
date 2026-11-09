@@ -1,0 +1,88 @@
+[
+  {
+    "name": "openai_batch",
+    "url": "https://developers.openai.com/api/docs/guides/batch.md",
+    "checked_at": "2026-11-04",
+    "resolved_url": "https://developers.openai.com/api/docs/guides/batch.md",
+    "sha256": "607bb7b751c050587de1bc8deac0d21de351145daaf19c1dfd8cbafc16b826af",
+    "bytes": 21089
+  },
+  {
+    "name": "openai_latency",
+    "url": "https://developers.openai.com/api/docs/guides/latency-optimization.md",
+    "checked_at": "2026-11-04",
+    "resolved_url": "https://developers.openai.com/api/docs/guides/latency-optimization.md",
+    "sha256": "1a57f7b85e4d6c43dc7f621a0a8e387cb7b452636cda2087f6e1f12a87c196e8",
+    "bytes": 24037
+  },
+  {
+    "name": "openai_cache",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-caching.md",
+    "checked_at": "2026-11-04",
+    "resolved_url": "https://developers.openai.com/api/docs/guides/prompt-caching.md",
+    "sha256": "8c672dafd6a332d4b9ad7464aefa3ca4f6b0fffa8bf66bb5ee087e1b39152711",
+    "bytes": 56584
+  },
+  {
+    "name": "claude_batch",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing.md",
+    "checked_at": "2026-11-04",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "gemini_batch",
+    "url": "https://ai.google.dev/gemini-api/docs/batch-api.md",
+    "checked_at": "2026-11-04",
+    "resolved_url": "https://aistudio.google.com/docs/batch-api",
+    "sha256": "50ad238b451c0d9461150e6b65c4b0693081bf8ca42270e853bcd947dd23bcef",
+    "bytes": 82440
+  },
+  {
+    "name": "vllm",
+    "path": "docs/configuration/optimization.md",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm/ae0bd3d48aaf3a0881f241014fe41e6bbcee8438/docs/configuration/optimization.md",
+    "commit": "ae0bd3d48aaf3a0881f241014fe41e6bbcee8438",
+    "checked_at": "2026-11-04",
+    "sha256": "7d854d153eeb219f154831e5d121f2a4e4555c91da7f8af311f0b69deea3c30d"
+  },
+  {
+    "name": "vllm",
+    "path": "docs/features/automatic_prefix_caching.md",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm/ae0bd3d48aaf3a0881f241014fe41e6bbcee8438/docs/features/automatic_prefix_caching.md",
+    "commit": "ae0bd3d48aaf3a0881f241014fe41e6bbcee8438",
+    "checked_at": "2026-11-04",
+    "sha256": "56af436bf0c5c714bcd929a731358db495b1a872180a1089a161c0eb1973beb1"
+  },
+  {
+    "name": "vllm",
+    "path": "docs/features/speculative_decoding/README.md",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm/ae0bd3d48aaf3a0881f241014fe41e6bbcee8438/docs/features/speculative_decoding/README.md",
+    "commit": "ae0bd3d48aaf3a0881f241014fe41e6bbcee8438",
+    "checked_at": "2026-11-04",
+    "sha256": "e32e519a926338ca6921b084d2f57a3fc63e21c3e765a1c22a17d79534a89009"
+  },
+  {
+    "name": "claude_batch_web",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+    "checked_at": "2026-11-04",
+    "method": "Read through web tool; no local content hash"
+  },
+  {
+    "name": "sarathi_pdf",
+    "url": "https://arxiv.org/pdf/2403.02310v3",
+    "checked_at": "2026-11-04",
+    "method": "Read through web tool; no local content hash"
+  },
+  {
+    "name": "distserve_pdf",
+    "url": "https://arxiv.org/pdf/2401.09670",
+    "checked_at": "2026-11-04",
+    "method": "Read through web tool; no local content hash"
+  },
+  {
+    "name": "speculative_pdf",
+    "url": "https://proceedings.mlr.press/v202/leviathan23a/leviathan23a.pdf",
+    "checked_at": "2026-11-04",
+    "method": "Read through web tool; no local content hash"
+  }
+]

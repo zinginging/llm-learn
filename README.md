@@ -14,6 +14,8 @@
 | LangChain 与 LangGraph | Agent 框架、状态编排、工具调用与跨进程恢复 | [深度学习指南](202610_langchain与langgraph学习/README.md) |
 | Tool、Function Calling、MCP 与 Skill | 能力接口、模型调用、连接协议、任务方法与选型 | [原理与选型指南](202610_tool与mcp及skill学习/README.md) |
 | RSI 递归自我改进 | 自修改 Agent、权重适应、2026 年评测与证据边界 | [深度调研与学习报告](202610_rsi递归自我改进/README.md) |
+| 批量与实时推理 | 服务模式、推理加速、延迟吞吐、成本与压测 | [对比调研与学习指南](202611_批量与实时推理对比/README.md) |
+| GraphRAG、LightRAG、HippoRAG 2 | 图增强检索、三种机制、建库查询、源码与选型 | [三项目入门与深度对比](202611_图增强rag三项目学习/README.md) |
 
 建议先用 MoE 与 Dense 建立模型基础，再学习 Jev 的概率与决策；随后从 Agent 上下文理解信息如何进入模型，最后用 AI-Ready 数据主题设计可追溯的数据流程。各主题也可独立阅读。
 

@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.14",
+  "command": "python 202611_批量与实时推理对比/scripts/inference_metrics_demo.py",
+  "exit_code": 0,
+  "script_sha256": "d2b204bcd2e2aa96e9e776af397c4e2e1bc2105ceaf849bdfdb94a1428538a5d",
+  "output": {
+    "scope": "synthetic arithmetic only, not observed engine performance",
+    "slo_ms": {
+      "ttft": 200,
+      "request_average_tpot": 100,
+      "e2e": 800
+    },
+    "latency_oriented_fixture": {
+      "submitted": 4,
+      "completed": 4,
+      "output_tokens": 16,
+      "elapsed_s": 0.5,
+      "output_tokens_per_s": 32.0,
+      "ttft_p95_ms": 200,
+      "mean_request_tpot_ms": 100.0,
+      "e2e_p95_ms": 500,
+      "slo_qualified": 4,
+      "goodput_requests_per_s": 8.0,
+      "slo_attainment_over_submitted": 1.0,
+      "tpot_not_applicable": 0
+    },
+    "throughput_oriented_fixture": {
+      "submitted": 4,
+      "completed": 4,
+      "output_tokens": 16,
+      "elapsed_s": 0.34,
+      "output_tokens_per_s": 47.05882352941176,
+      "ttft_p95_ms": 280,
+      "mean_request_tpot_ms": 20.0,
+      "e2e_p95_ms": 340,
+      "slo_qualified": 0,
+      "goodput_requests_per_s": 0.0,
+      "slo_attainment_over_submitted": 0.0,
+      "tpot_not_applicable": 0
+    },
+    "conventional_gqa_kv_example_mib": 512.0,
+    "edge_checks": [
+      "empty percentile",
+      "single token TPOT undefined",
+      "failed request counted",
+      "invalid timestamps rejected"
+    ]
+  },
+  "not_tested": [
+    "GPU or inference engine performance",
+    "Vendor APIs and prices charged",
+    "Model quality",
+    "Actual batching or scheduling behavior",
+    "Real SSE token boundaries"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "graphrag",
+    "repository": "microsoft/graphrag",
+    "checked_at": "2026-11-09",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "commit_time": "2026-11-01T23:40:54-06:00",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "latest_release": {
+      "tag": "v3.3.0",
+      "published_at": "2026-10-08T18:28:43Z",
+      "url": "https://github.com/microsoft/graphrag/releases/tag/v3.3.0"
+    }
+  },
+  {
+    "name": "lightrag",
+    "repository": "HKUDS/LightRAG",
+    "checked_at": "2026-11-09",
+    "commit": "abc733b5c4f371fa39b3396b504a7309bd1531ad",
+    "commit_time": "2026-11-09T16:37:53+08:00",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "latest_release": {
+      "tag": "v1.5.7",
+      "published_at": "2026-09-02T07:23:55Z",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7"
+    }
+  },
+  {
+    "name": "hipporag",
+    "repository": "OSU-NLP-Group/HippoRAG",
+    "checked_at": "2026-11-09",
+    "commit": "d5c8329422e0a0b834a15874545cb6a74b4f9b26",
+    "commit_time": "2026-10-06T17:03:48-04:00",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "latest_release": {
+      "tag": "v1.0.0",
+      "published_at": "2025-02-27T17:29:48Z",
+      "url": "https://github.com/OSU-NLP-Group/HippoRAG/releases/tag/v1.0.0"
+    }
+  }
+]
