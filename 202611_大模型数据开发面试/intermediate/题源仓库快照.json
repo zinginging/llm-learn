@@ -1,0 +1,22 @@
+[
+  {
+    "name": "capco",
+    "repo": "capcodigital/interview-questions",
+    "commit": "2e384b6eb5c6c23af3d02bdabf370a4e71fa5b54"
+  },
+  {
+    "name": "obenner",
+    "repo": "OBenner/data-engineering-interview-questions",
+    "commit": "2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db"
+  },
+  {
+    "name": "llm400",
+    "repo": "Lanqingsong/400-Interview-Questions-on-Large-Language-Models",
+    "commit": "aad510558fe1499ed600b893f59efa86963e9a7b"
+  },
+  {
+    "name": "landed",
+    "repo": "landedjobs/awesome-ai-engineer-interview",
+    "commit": "b61d6ba9d917e349e69d377e78886f9055a233fa"
+  }
+]

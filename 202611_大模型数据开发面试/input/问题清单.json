@@ -1,0 +1,915 @@
+{
+  "phase": "1_question_collection_frozen_before_answer_research",
+  "frozen_at_utc": "2026-11-09T09:32:41.064043+00:00",
+  "scope": "大模型数据开发；按数据生命周期组织，公开题意用自写表述；扩展题明确区分",
+  "sources": {
+    "I01": {
+      "title": "候选人自述：大模型基础设施实习生面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/b0d5f070b2a74602a95d6c4331afc9b9",
+      "kind": "候选人一手自述，非公司确认",
+      "locator": "一面及二面问题清单；页面显示09-01，年份不据此推断"
+    },
+    "C01": {
+      "title": "Capco 公开数据工程面试能力范围",
+      "url": "https://github.com/capcodigital/interview-questions/blob/2e384b6eb5c6c23af3d02bdabf370a4e71fa5b54/data-engineering.md",
+      "kind": "机构公开考察范围，非具体题目",
+      "locator": "Questions / assessment areas"
+    },
+    "B01": {
+      "title": "大模型400问社区题库",
+      "url": "https://github.com/Lanqingsong/400-Interview-Questions-on-Large-Language-Models/blob/aad510558fe1499ed600b893f59efa86963e9a7b/README.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "原编号见每题"
+    },
+    "DE-sql": {
+      "title": "Data Engineering Interview Questions / sql",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/sql.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-python": {
+      "title": "Data Engineering Interview Questions / python",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/python.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-spark": {
+      "title": "Data Engineering Interview Questions / spark",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/spark.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-kafka": {
+      "title": "Data Engineering Interview Questions / kafka",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/kafka.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-flink": {
+      "title": "Data Engineering Interview Questions / flink",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/flink.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-iceberg": {
+      "title": "Data Engineering Interview Questions / iceberg",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/iceberg.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-cdc": {
+      "title": "Data Engineering Interview Questions / cdc",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/cdc.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-data-quality": {
+      "title": "Data Engineering Interview Questions / data-quality",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/data-quality.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-data-governance": {
+      "title": "Data Engineering Interview Questions / data-governance",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/data-governance.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-observability": {
+      "title": "Data Engineering Interview Questions / observability",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/observability.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "DE-system-design": {
+      "title": "Data Engineering Interview Questions / system-design",
+      "url": "https://github.com/OBenner/data-engineering-interview-questions/blob/2a27b4e98a564b9d0fb1019ae3ba9a2c2e3f35db/content/system-design.md",
+      "kind": "社区题库，未验证企业归属",
+      "locator": "章节问题标题见每题"
+    },
+    "AI-rag": {
+      "title": "AI Engineer interview questions / rag",
+      "url": "https://github.com/landedjobs/awesome-ai-engineer-interview/blob/b61d6ba9d917e349e69d377e78886f9055a233fa/questions/rag.md",
+      "kind": "社区/招聘服务题库，未验证企业归属",
+      "locator": "文件内Q编号见每题"
+    },
+    "AI-fine-tuning": {
+      "title": "AI Engineer interview questions / fine-tuning",
+      "url": "https://github.com/landedjobs/awesome-ai-engineer-interview/blob/b61d6ba9d917e349e69d377e78886f9055a233fa/questions/fine-tuning.md",
+      "kind": "社区/招聘服务题库，未验证企业归属",
+      "locator": "文件内Q编号见每题"
+    },
+    "AI-evals": {
+      "title": "AI Engineer interview questions / evals",
+      "url": "https://github.com/landedjobs/awesome-ai-engineer-interview/blob/b61d6ba9d917e349e69d377e78886f9055a233fa/questions/evals.md",
+      "kind": "社区/招聘服务题库，未验证企业归属",
+      "locator": "文件内Q编号见每题"
+    },
+    "W1220": {
+      "title": "Wood公开题库 / 1220",
+      "url": "https://mianshi.wooddata.cn/q/1220",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W1222": {
+      "title": "Wood公开题库 / 1222",
+      "url": "https://mianshi.wooddata.cn/q/1222",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W1226": {
+      "title": "Wood公开题库 / 1226",
+      "url": "https://mianshi.wooddata.cn/q/1226",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W1218": {
+      "title": "Wood公开题库 / 1218",
+      "url": "https://mianshi.wooddata.cn/q/1218",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W411": {
+      "title": "Wood公开题库 / 411",
+      "url": "https://mianshi.wooddata.cn/q/411",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W418": {
+      "title": "Wood公开题库 / 418",
+      "url": "https://mianshi.wooddata.cn/q/418",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    },
+    "W624": {
+      "title": "Wood公开题库 / 624",
+      "url": "https://mianshi.wooddata.cn/q/624",
+      "kind": "公开学习题库，非企业原题证明",
+      "locator": "页面主标题"
+    }
+  },
+  "modules": [
+    {
+      "id": "01",
+      "title": "岗位与数据生命周期"
+    },
+    {
+      "id": "02",
+      "title": "SQL与Python"
+    },
+    {
+      "id": "03",
+      "title": "分布式处理与性能"
+    },
+    {
+      "id": "04",
+      "title": "存储与实时链路"
+    },
+    {
+      "id": "05",
+      "title": "预训练数据工程"
+    },
+    {
+      "id": "06",
+      "title": "SFT偏好与标注"
+    },
+    {
+      "id": "07",
+      "title": "RAG数据开发"
+    },
+    {
+      "id": "08",
+      "title": "评测与数据闭环"
+    },
+    {
+      "id": "09",
+      "title": "治理安全与可靠性"
+    },
+    {
+      "id": "10",
+      "title": "系统设计与项目表达"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "大模型数据开发与传统数据开发，职责和交付物有何不同？",
+      "origin_type": "研究扩展题",
+      "source_ids": [
+        "C01"
+      ],
+      "locator": "assessment areas；按大模型数据岗位扩展",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q01"
+    },
+    {
+      "id": "Q02",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "预训练、SFT、偏好优化、RAG分别需要怎样的数据？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "211、233、236、241；合并同类题意",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q02"
+    },
+    {
+      "id": "Q03",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "公开网页和开源数据能否直接用于训练？如何建立准入？",
+      "origin_type": "研究扩展题",
+      "source_ids": [
+        "C01"
+      ],
+      "locator": "Security；补足数据来源与许可问题",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q03"
+    },
+    {
+      "id": "Q04",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "为什么要做ODS/DWD等分层？训练数据如何对应？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面16、17；二面9",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q04"
+    },
+    {
+      "id": "Q05",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "如何让模型训练数据可回查，建立端到端血缘？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面24（作者注明没听清）；二面16补充血缘；以二面完整问法为依据",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q05"
+    },
+    {
+      "id": "Q06",
+      "module": "01",
+      "module_title": "岗位与数据生命周期",
+      "question": "如何检测并处理schema变化和数据契约破坏？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-data-quality"
+      ],
+      "locator": "How do you detect schema drift and breaking changes? / What are data contracts?",
+      "answer_path": "../output/01_岗位与数据生命周期.md#q06"
+    },
+    {
+      "id": "Q07",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "SQL如何求第N高的值，并处理并列？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-sql"
+      ],
+      "locator": "Write sql query to get the nth highest salary among all employees.",
+      "answer_path": "../output/02_SQL与Python.md#q07"
+    },
+    {
+      "id": "Q08",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "INNER/LEFT JOIN有什么区别？为什么关联后行数和指标会膨胀？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-sql"
+      ],
+      "locator": "What is the difference between inner join and outer join in sql?；膨胀为本题追问",
+      "answer_path": "../output/02_SQL与Python.md#q08"
+    },
+    {
+      "id": "Q09",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "窗口函数ROWS和RANGE有什么区别？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W624"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/02_SQL与Python.md#q09"
+    },
+    {
+      "id": "Q10",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "Python如何处理超过内存的大文件？生成器解决了什么？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-python"
+      ],
+      "locator": "How do iterators and generators help with large data processing? / How do you process large CSV files without running out of memory?",
+      "answer_path": "../output/02_SQL与Python.md#q10"
+    },
+    {
+      "id": "Q11",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "Python多线程、多进程与GIL如何理解和选用？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面1、2",
+      "answer_path": "../output/02_SQL与Python.md#q11"
+    },
+    {
+      "id": "Q12",
+      "module": "02",
+      "module_title": "SQL与Python",
+      "question": "Pandas和Spark DataFrame有什么区别，何时选择？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面5；二面10",
+      "answer_path": "../output/02_SQL与Python.md#q12"
+    },
+    {
+      "id": "Q13",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "Spark宽窄依赖、shuffle、惰性执行和action是什么关系？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面4、6；按机制归并",
+      "answer_path": "../output/03_分布式处理与性能.md#q13"
+    },
+    {
+      "id": "Q14",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "Spark数据倾斜怎么定位和处理？加盐有什么限制？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面7及18；定位与加盐限制为研究追问",
+      "answer_path": "../output/03_分布式处理与性能.md#q14"
+    },
+    {
+      "id": "Q15",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "Spark任务OOM或失败，如何系统排查？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面7",
+      "answer_path": "../output/03_分布式处理与性能.md#q15"
+    },
+    {
+      "id": "Q16",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "PySpark为什么有时慢于Java/Scala？如何优化？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "二面18；不接受原帖解释为技术定论",
+      "answer_path": "../output/03_分布式处理与性能.md#q16"
+    },
+    {
+      "id": "Q17",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "Ray是什么，与Spark在数据加工中如何分工？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "二面17；与Spark比较为研究追问",
+      "answer_path": "../output/03_分布式处理与性能.md#q17"
+    },
+    {
+      "id": "Q18",
+      "module": "03",
+      "module_title": "分布式处理与性能",
+      "question": "用SQL对变更事件去重并保留最新值，如何做到确定性与幂等？",
+      "origin_type": "研究扩展题",
+      "source_ids": [
+        "DE-cdc"
+      ],
+      "locator": "idempotent ingestion；补充可执行编码题",
+      "answer_path": "../output/03_分布式处理与性能.md#q18"
+    },
+    {
+      "id": "Q19",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "行式、列式存储及Parquet、ORC、JSON如何选择？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面9、10",
+      "answer_path": "../output/04_存储与实时链路.md#q19"
+    },
+    {
+      "id": "Q20",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "分区怎么选，为什么出现小文件，如何治理？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "一面14、15、18；小文件为原帖调优话题",
+      "answer_path": "../output/04_存储与实时链路.md#q20"
+    },
+    {
+      "id": "Q21",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "Iceberg比普通Parquet目录多解决什么问题？快照和删除怎么理解？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-iceberg"
+      ],
+      "locator": "plain Parquet / snapshot / deletes / concurrent writes",
+      "answer_path": "../output/04_存储与实时链路.md#q21"
+    },
+    {
+      "id": "Q22",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "Kafka的partition、offset、消费组与顺序保证是什么？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-kafka"
+      ],
+      "locator": "offset / Partitioning Key / messages consumed；归并",
+      "answer_path": "../output/04_存储与实时链路.md#q22"
+    },
+    {
+      "id": "Q23",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "at-least-once与exactly-once有何区别？如何设计幂等写入？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-cdc"
+      ],
+      "locator": "delivery semantics / idempotent ingestion",
+      "answer_path": "../output/04_存储与实时链路.md#q23"
+    },
+    {
+      "id": "Q24",
+      "module": "04",
+      "module_title": "存储与实时链路",
+      "question": "Flink事件时间、watermark、状态与checkpoint分别做什么？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-flink"
+      ],
+      "locator": "time / Watermark / state storage / abnormal restart",
+      "answer_path": "../output/04_存储与实时链路.md#q24"
+    },
+    {
+      "id": "Q25",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "如何设计训练语料清洗链路？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W1220"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/05_预训练数据工程.md#q25"
+    },
+    {
+      "id": "Q26",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "文本精确去重、近似去重、文档级和句子级去重怎么选？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "128；候选人I01一面23也出现文本去重",
+      "answer_path": "../output/05_预训练数据工程.md#q26"
+    },
+    {
+      "id": "Q27",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "MinHash与LSH如何实现大规模近似去重？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "118、125",
+      "answer_path": "../output/05_预训练数据工程.md#q27"
+    },
+    {
+      "id": "Q28",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "困惑度过滤和质量分类器怎么用，有何偏差？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "121、126",
+      "answer_path": "../output/05_预训练数据工程.md#q28"
+    },
+    {
+      "id": "Q29",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "多领域、多语言数据配比与采样权重如何设计？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "141、143、146、147",
+      "answer_path": "../output/05_预训练数据工程.md#q29"
+    },
+    {
+      "id": "Q30",
+      "module": "05",
+      "module_title": "预训练数据工程",
+      "question": "如何识别训练数据中的评测污染与测试泄漏？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "119、131",
+      "answer_path": "../output/05_预训练数据工程.md#q30"
+    },
+    {
+      "id": "Q31",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "SFT数据如何构建，数量与质量如何权衡？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W1222"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/06_SFT偏好与标注.md#q31"
+    },
+    {
+      "id": "Q32",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "SFT后复读、回显prompt或不停输出，数据端先查什么？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-fine-tuning"
+      ],
+      "locator": "Q8",
+      "answer_path": "../output/06_SFT偏好与标注.md#q32"
+    },
+    {
+      "id": "Q33",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "如何做sequence packing、截断与loss masking，避免样本串扰？",
+      "origin_type": "研究扩展题",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "226长度分布；packing边界为补充工程题",
+      "answer_path": "../output/06_SFT偏好与标注.md#q33"
+    },
+    {
+      "id": "Q34",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "如何合成指令数据，防止错误放大与模式坍缩？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "136、137、145",
+      "answer_path": "../output/06_SFT偏好与标注.md#q34"
+    },
+    {
+      "id": "Q35",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "DPO需要什么偏好数据？与SFT、RLHF的数据有什么不同？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "236、241、242；以数据视角归并",
+      "answer_path": "../output/06_SFT偏好与标注.md#q35"
+    },
+    {
+      "id": "Q36",
+      "module": "06",
+      "module_title": "SFT偏好与标注",
+      "question": "如何设计人工标注与模型预标注流程，处理标注分歧？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W1226"
+      ],
+      "locator": "页面主标题；AI-fine-tuning Q9为交叉题源",
+      "answer_path": "../output/06_SFT偏好与标注.md#q36"
+    },
+    {
+      "id": "Q37",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "PDF、扫描件和表格的解析错误应如何排查？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q10",
+      "answer_path": "../output/07_RAG数据开发.md#q37"
+    },
+    {
+      "id": "Q38",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "chunk如何保留上下文？代码、长文和表格怎样切分？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q6、Q9",
+      "answer_path": "../output/07_RAG数据开发.md#q38"
+    },
+    {
+      "id": "Q39",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "为什么需要混合检索与重排？重排能补救召回缺失吗？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q12、Q16、Q18",
+      "answer_path": "../output/07_RAG数据开发.md#q39"
+    },
+    {
+      "id": "Q40",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "ANN/HNSW如何工作？如何选择索引及检索参数？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q4、Q21、Q40；IVF比较为研究追问",
+      "answer_path": "../output/07_RAG数据开发.md#q40"
+    },
+    {
+      "id": "Q41",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "Embedding升级后旧向量能否混用？如何迁移与回滚？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q25；Q8有索引升级场景",
+      "answer_path": "../output/07_RAG数据开发.md#q41"
+    },
+    {
+      "id": "Q42",
+      "module": "07",
+      "module_title": "RAG数据开发",
+      "question": "RAG权限隔离应放在哪里？为何输出过滤不够？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q22、Q31",
+      "answer_path": "../output/07_RAG数据开发.md#q42"
+    },
+    {
+      "id": "Q43",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "训练、验证、测试集如何切分，避免近重复泄漏？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "225、131；AI-fine-tuning Q10交叉",
+      "answer_path": "../output/08_评测与数据闭环.md#q43"
+    },
+    {
+      "id": "Q44",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "如何评价RAG，Recall、MRR、nDCG与答案指标怎样配合？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q37、Q26",
+      "answer_path": "../output/08_评测与数据闭环.md#q44"
+    },
+    {
+      "id": "Q45",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "LLM-as-a-Judge有什么偏差？怎样校准和使用？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-evals"
+      ],
+      "locator": "Q5、Q13",
+      "answer_path": "../output/08_评测与数据闭环.md#q45"
+    },
+    {
+      "id": "Q46",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "如何证明数据清洗或微调真的带来收益，而非评测假象？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-fine-tuning"
+      ],
+      "locator": "Q3、Q28、Q10",
+      "answer_path": "../output/08_评测与数据闭环.md#q46"
+    },
+    {
+      "id": "Q47",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "一次回答错误，如何归因到数据、检索、工具或模型？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W411"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/08_评测与数据闭环.md#q47"
+    },
+    {
+      "id": "Q48",
+      "module": "08",
+      "module_title": "评测与数据闭环",
+      "question": "如何设计离线回归、灰度和AB测试？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-fine-tuning"
+      ],
+      "locator": "Q28；B01原255为AB测试",
+      "answer_path": "../output/08_评测与数据闭环.md#q48"
+    },
+    {
+      "id": "Q49",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "PII识别、脱敏和匿名化有什么区别，如何验证？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "120；DE-data-governance PII/tokenization交叉",
+      "answer_path": "../output/09_治理安全与可靠性.md#q49"
+    },
+    {
+      "id": "Q50",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "用户要求删除数据，怎样处理湖仓、索引、缓存和训练模型？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-data-governance"
+      ],
+      "locator": "How do you handle GDPR right to be forgotten in a lakehouse/warehouse?；模型侧为研究扩展",
+      "answer_path": "../output/09_治理安全与可靠性.md#q50"
+    },
+    {
+      "id": "Q51",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "为什么知识库文档会产生间接提示词注入？如何分层防御？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "AI-rag"
+      ],
+      "locator": "Q30；AI-evals Q7交叉",
+      "answer_path": "../output/09_治理安全与可靠性.md#q51"
+    },
+    {
+      "id": "Q52",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "数据质量监控如何避免噪声，并发现静默错误？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-data-quality"
+      ],
+      "locator": "quality dimensions / noisy alerts / common failure modes",
+      "answer_path": "../output/09_治理安全与可靠性.md#q52"
+    },
+    {
+      "id": "Q53",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "训练数据loader如何分片、洗牌和断点续跑？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "B01"
+      ],
+      "locator": "133、134、135；断点状态为研究追问",
+      "answer_path": "../output/09_治理安全与可靠性.md#q53"
+    },
+    {
+      "id": "Q54",
+      "module": "09",
+      "module_title": "治理安全与可靠性",
+      "question": "数据回补和任务重跑如何保证幂等、隔离与安全发布？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-observability"
+      ],
+      "locator": "How do you approach backfills safely?",
+      "answer_path": "../output/09_治理安全与可靠性.md#q54"
+    },
+    {
+      "id": "Q55",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "设计一条从网页采集、清洗、入湖到训练的数据流水线。",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "二面16完整场景题",
+      "answer_path": "../output/10_系统设计与项目表达.md#q55"
+    },
+    {
+      "id": "Q56",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "亿级文档Embedding离线任务如何做限流、恢复、去重和发布？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W1218"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/10_系统设计与项目表达.md#q56"
+    },
+    {
+      "id": "Q57",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "数据平台怎样在质量、时效SLA与成本之间取舍？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "DE-system-design"
+      ],
+      "locator": "How do you manage cost while meeting SLAs?",
+      "answer_path": "../output/10_系统设计与项目表达.md#q57"
+    },
+    {
+      "id": "Q58",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "多模态图文数据如何去重、对齐、切分和评估？",
+      "origin_type": "研究扩展题",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "岗位涉及图文识别；补充多模态数据设计题",
+      "answer_path": "../output/10_系统设计与项目表达.md#q58"
+    },
+    {
+      "id": "Q59",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "数仓要供Agent查询，优先补哪些语义、接口与权限能力？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "W418"
+      ],
+      "locator": "页面主标题",
+      "answer_path": "../output/10_系统设计与项目表达.md#q59"
+    },
+    {
+      "id": "Q60",
+      "module": "10",
+      "module_title": "系统设计与项目表达",
+      "question": "如何讲清一个数据项目的职责、难点、效果与失败复盘？",
+      "origin_type": "公开问题归纳",
+      "source_ids": [
+        "I01"
+      ],
+      "locator": "二面6、7、11；STAR与量化为答案组织方法",
+      "answer_path": "../output/10_系统设计与项目表达.md#q60"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "人工数据的SQL及算术实验；未运行真实LLM、Spark、Ray、Flink、Kafka或GPU",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "sql": {
+    "ranking": [
+      [
+        "a",
+        1,
+        1,
+        1
+      ],
+      [
+        "b",
+        2,
+        1,
+        1
+      ],
+      [
+        "c",
+        3,
+        3,
+        2
+      ]
+    ],
+    "join_amount_expected": 100,
+    "join_amount_actual": 200,
+    "rows_vs_range": [
+      [
+        1,
+        10,
+        10,
+        30
+      ],
+      [
+        1,
+        20,
+        30,
+        30
+      ],
+      [
+        2,
+        5,
+        35,
+        35
+      ]
+    ],
+    "cdc_final_version_and_tombstone": [
+      4,
+      1
+    ]
+  },
+  "dedup": {
+    "jaccard": 0.5,
+    "minhash_estimate_256": 0.5078125,
+    "lsh_ideal_probability": 0.75,
+    "note": "hash家族用于教学，未证明独立随机排列假设；不据此评估实际去重准确率"
+  },
+  "token_mixture_alpha_0_5": [
+    0.75,
+    0.25
+  ],
+  "masked_sft_loss": 0.4581453659370775,
+  "dpo_loss_beta_1_delta_1": 0.31326168751822286,
+  "retrieval_metrics": {
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "ndcg_binary": 0.9197207891481876,
+    "all_evidence": true
+  },
+  "capacity_example": {
+    "tokens": 50000000000,
+    "minutes_at_5m_tpm": 10000.0,
+    "raw_vector_bytes": 614400000000
+  },
+  "checks": [
+    "ties_and_nulls",
+    "join_fanout",
+    "rows_range_peers",
+    "cdc_replay_and_tombstone",
+    "version_conflict",
+    "empty_documents",
+    "lsh_boundaries",
+    "all_labels_masked",
+    "metric_empty_gold",
+    "metric_empty_results",
+    "duplicate_results",
+    "sampling_normalization"
+  ]
+}

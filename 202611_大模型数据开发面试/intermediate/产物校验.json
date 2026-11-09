@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-09T09:54:11.395755+00:00",
+  "status": "passed",
+  "question_count": 60,
+  "modules": 10,
+  "collected_questions": 55,
+  "research_extensions": 5,
+  "question_manifest_unchanged": true,
+  "technical_sources_acquired_after_question_freeze": true,
+  "technical_sources": 39,
+  "raw_hashes_verified": 39,
+  "raw_hashes_skipped_missing_tmp": [],
+  "local_links_checked": 167,
+  "retained_files_checked_excluding_this_report": 22,
+  "scope": "文档、题目映射、JSON/Python语法与资料快照校验；不是模型/服务运行测试"
+}
