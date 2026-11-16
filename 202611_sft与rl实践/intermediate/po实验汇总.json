@@ -1,0 +1,139 @@
+{
+  "checked_at": "2026-11-16",
+  "initial_checkpoint": "tmp/sft",
+  "scope": "真实微型训练管线验证，非效果排名；DAPO仅部分组件",
+  "experiments": [
+    {
+      "method": "dpo",
+      "report": "dpo训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "ipo",
+      "report": "ipo训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "simpo",
+      "report": "simpo训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "orpo",
+      "report": "orpo训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "kto",
+      "report": "kto训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "ppo",
+      "report": "ppo训练结果.json",
+      "status": "executed",
+      "steps": null,
+      "episodes_requested": 256,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": 29,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "grpo",
+      "report": "grpo_po训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "rloo",
+      "report": "rloo_po训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "dr_grpo",
+      "report": "dr_grpo_po训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "gspo",
+      "report": "gspo_po训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": null
+    },
+    {
+      "method": "dapo-components",
+      "report": "dapo-components_po训练结果.json",
+      "status": "executed",
+      "steps": 40,
+      "episodes_requested": null,
+      "policy_tensors_changed": 29,
+      "critic_tensors_changed": null,
+      "test_count": 6,
+      "test_accuracy": 0.0,
+      "full_dapo": false
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "checked_at": "2026-11-16",
+  "kind": "CPU微型自回归Transformer，真实SFT和在线GRPO；不是预训练大模型的能力基准",
+  "sft": {
+    "kind": "SFT",
+    "source_model": "tiny",
+    "source_revision": null,
+    "seed": 17,
+    "steps": 120,
+    "parameters": 26976,
+    "split_counts": {
+      "train": 25,
+      "validation": 5,
+      "test": 6
+    },
+    "prompt_loss_mask_verified": true,
+    "test_before": {
+      "count": 6,
+      "exact_accuracy": 0.0,
+      "examples": [
+        {
+          "prompt": "0+3=",
+          "answer": "3",
+          "generated": "====",
+          "correct": false
+        },
+        {
+          "prompt": "1+5=",
+          "answer": "6",
+          "generated": "====",
+          "correct": false
+        },
+        {
+          "prompt": "3+0=",
+          "answer": "3",
+          "generated": "====",
+          "correct": false
+        },
+        {
+          "prompt": "3+5=",
+          "answer": "8",
+          "generated": "====",
+          "correct": false
+        },
+        {
+          "prompt": "5+1=",
+          "answer": "6",
+          "generated": "====",
+          "correct": false
+        },
+        {
+          "prompt": "5+3=",
+          "answer": "8",
+          "generated": "====",
+          "correct": false
+        }
+      ]
+    },
+    "test_after": {
+      "count": 6,
+      "exact_accuracy": 0.0,
+      "examples": [
+        {
+          "prompt": "0+3=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+5=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+0=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+5=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+1=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+3=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        }
+      ]
+    },
+    "train_probe_after": {
+      "count": 25,
+      "exact_accuracy": 0.24,
+      "examples": [
+        {
+          "prompt": "0+0=",
+          "answer": "0",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+1=",
+          "answer": "1",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+2=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+4=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+5=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "1+0=",
+          "answer": "1",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+1=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+2=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+3=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+4=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "2+0=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "2+1=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "2+3=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "2+4=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+1=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+2=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "3+3=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+4=",
+          "answer": "7",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+0=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+1=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "4+2=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+3=",
+          "answer": "7",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+4=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+0=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "5+5=",
+          "answer": "10",
+          "generated": "5",
+          "correct": false
+        }
+      ]
+    },
+    "note": "微型随机初始化语言模型只演示真实训练链路，不能当作大模型效果证据"
+  },
+  "rl": {
+    "kind": "online GRPO",
+    "initial_checkpoint": "tmp/sft",
+    "seed": 17,
+    "steps": 80,
+    "num_generations": 4,
+    "beta": 0.02,
+    "test_before": {
+      "count": 6,
+      "exact_accuracy": 0.0,
+      "examples": [
+        {
+          "prompt": "0+3=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+5=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+0=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+5=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+1=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+3=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        }
+      ]
+    },
+    "test_after": {
+      "count": 6,
+      "exact_accuracy": 0.0,
+      "examples": [
+        {
+          "prompt": "0+3=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+5=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+0=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+5=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+1=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+3=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        }
+      ]
+    },
+    "train_probe_after": {
+      "count": 25,
+      "exact_accuracy": 0.24,
+      "examples": [
+        {
+          "prompt": "0+0=",
+          "answer": "0",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+1=",
+          "answer": "1",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+2=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+4=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "0+5=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "1+0=",
+          "answer": "1",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+1=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+2=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+3=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "1+4=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "2+0=",
+          "answer": "2",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "2+1=",
+          "answer": "3",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "2+3=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "2+4=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+1=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+2=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "3+3=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "3+4=",
+          "answer": "7",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+0=",
+          "answer": "4",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+1=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "4+2=",
+          "answer": "6",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+3=",
+          "answer": "7",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "4+4=",
+          "answer": "8",
+          "generated": "5",
+          "correct": false
+        },
+        {
+          "prompt": "5+0=",
+          "answer": "5",
+          "generated": "5",
+          "correct": true
+        },
+        {
+          "prompt": "5+5=",
+          "answer": "10",
+          "generated": "5",
+          "correct": false
+        }
+      ]
+    },
+    "training_logs": [
+      {
+        "loss": 0.0066,
+        "grad_norm": 0.4825432002544403,
+        "learning_rate": 0.00038124999999999997,
+        "num_tokens": 2025.0,
+        "completions/mean_length": 2.328125,
+        "completions/min_length": 1.8,
+        "completions/max_length": 3.8,
+        "completions/clipped_ratio": 0.11875,
+        "completions/mean_terminated_length": 2.100147765874863,
+        "completions/min_terminated_length": 1.8,
+        "completions/max_terminated_length": 2.95,
+        "rewards/correctness_reward/mean": 0.13125,
+        "rewards/correctness_reward/std": 0.3024533078074455,
+        "reward": 0.13125,
+        "reward_std": 0.3024532958865166,
+        "frac_reward_zero_std": 0.6375,
+        "kl": 0.4985702731908532,
+        "entropy": 1.2014039233326912,
+        "clip_ratio/low_mean": 0.0,
+        "clip_ratio/low_min": 0.0,
+        "clip_ratio/high_mean": 0.0,
+        "clip_ratio/high_max": 0.0,
+        "clip_ratio/region_mean": 0.0,
+        "step_time": 0.033511715000014416,
+        "epoch": 3.3333333333333335,
+        "step": 20
+      },
+      {
+        "loss": 0.0044,
+        "grad_norm": 0.9253556132316589,
+        "learning_rate": 0.00025624999999999997,
+        "num_tokens": 3932.0,
+        "completions/mean_length": 1.959375,
+        "completions/min_length": 1.3,
+        "completions/max_length": 2.35,
+        "completions/clipped_ratio": 0.0,
+        "completions/mean_terminated_length": 1.959375,
+        "completions/min_terminated_length": 1.3,
+        "completions/max_terminated_length": 2.35,
+        "rewards/correctness_reward/mean": 0.1375,
+        "rewards/correctness_reward/std": 0.279411655664444,
+        "reward": 0.1375,
+        "reward_std": 0.2794116482138634,
+        "frac_reward_zero_std": 0.6375,
+        "kl": 0.21180856898427008,
+        "entropy": 1.4681315183639527,
+        "clip_ratio/low_mean": 0.0,
+        "clip_ratio/low_min": 0.0,
+        "clip_ratio/high_mean": 0.0,
+        "clip_ratio/high_max": 0.0,
+        "clip_ratio/region_mean": 0.0,
+        "step_time": 0.02881874294999136,
+        "epoch": 6.666666666666667,
+        "step": 40
+      },
+      {
+        "loss": 0.0088,
+        "grad_norm": 1.381384253501892,
+        "learning_rate": 0.00013125000000000002,
+        "num_tokens": 5891.0,
+        "completions/mean_length": 2.121875,
+        "completions/min_length": 1.8,
+        "completions/max_length": 3.3,
+        "completions/clipped_ratio": 0.03125,
+        "completions/mean_terminated_length": 2.060029757022858,
+        "completions/min_terminated_length": 1.8,
+        "completions/max_terminated_length": 2.85,
+        "rewards/correctness_reward/mean": 0.1125,
+        "rewards/correctness_reward/std": 0.2936569482088089,
+        "reward": 0.1125,
+        "reward_std": 0.2936569392681122,
+        "frac_reward_zero_std": 0.65,
+        "kl": 0.5865120142232627,
+        "entropy": 1.345401468873024,
+        "clip_ratio/low_mean": 0.0,
+        "clip_ratio/low_min": 0.0,
+        "clip_ratio/high_mean": 0.0,
+        "clip_ratio/high_max": 0.0,
+        "clip_ratio/region_mean": 0.0,
+        "step_time": 0.031188726399994947,
+        "epoch": 10.0,
+        "step": 60
+      },
+      {
+        "loss": 0.0131,
+        "grad_norm": 2.542311668395996,
+        "learning_rate": 6.25e-06,
+        "num_tokens": 7848.0,
+        "completions/mean_length": 2.115625,
+        "completions/min_length": 1.7,
+        "completions/max_length": 3.35,
+        "completions/clipped_ratio": 0.04375,
+        "completions/mean_terminated_length": 2.0291964292526243,
+        "completions/min_terminated_length": 1.7,
+        "completions/max_terminated_length": 2.6,
+        "rewards/correctness_reward/mean": 0.10625,
+        "rewards/correctness_reward/std": 0.2750763013958931,
+        "reward": 0.10625,
+        "reward_std": 0.2750762924551964,
+        "frac_reward_zero_std": 0.6625,
+        "kl": 0.8769919239915908,
+        "entropy": 1.3768430776894092,
+        "clip_ratio/low_mean": 0.0,
+        "clip_ratio/low_min": 0.0,
+        "clip_ratio/high_mean": 0.0,
+        "clip_ratio/high_max": 0.0,
+        "clip_ratio/region_mean": 0.0,
+        "step_time": 0.03768801024999959,
+        "epoch": 13.333333333333334,
+        "step": 80
+      },
+      {
+        "train_runtime": 2.9844,
+        "train_samples_per_second": 428.891,
+        "train_steps_per_second": 26.806,
+        "total_flos": 0.0,
+        "train_loss": 0.00824896153062582,
+        "epoch": 13.333333333333334,
+        "step": 80
+      }
+    ],
+    "note": "在线采样和更新已执行；奖励来自训练题的程序判定，不消费测试答案"
+  },
+  "interpretation": "固定默认步数下，6道留出题的贪心准确率在初始、SFT、GRPO阶段均为0/6。训练链路已验证，不宣称RL提升测试效果。",
+  "checkpoint_comparison": {
+    "tensors_changed_after_rl": 28,
+    "tensors_compared": 28,
+    "max_abs_change": 0.012988842092454433
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "model_id": "Qwen/Qwen2.5-0.5B",
+  "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+  "checked_at": "2026-11-16",
+  "weights_downloaded": false,
+  "used_in_local_training": false
+}

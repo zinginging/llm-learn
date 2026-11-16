@@ -1,0 +1,90 @@
+[
+  {
+    "name": "ppo",
+    "url": "https://arxiv.org/pdf/1707.06347",
+    "sha256": "e78feadadbdbb0b601b3c2bcc81404722cd431a489b307545f9b7bea1e8c4f5b",
+    "bytes": 2923532,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "dpo",
+    "url": "https://arxiv.org/pdf/2305.18290",
+    "sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a",
+    "bytes": 1299212,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "grpo",
+    "url": "https://arxiv.org/pdf/2402.03300",
+    "sha256": "6cc20b3c5b8d25b8b53868fc4ec1792c144f07d67bdf7395138efd4422197e7b",
+    "bytes": 1844642,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "ipo",
+    "url": "https://arxiv.org/pdf/2310.12036",
+    "sha256": "4a2f9e715c9031dfe4623df0f82df5dafedc94ede51568122cdf495a10d0630b",
+    "bytes": 1103888,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "simpo",
+    "url": "https://arxiv.org/pdf/2405.14734",
+    "sha256": "d14add6e630c8f7c1e3969e1cc5d8f463642d5d972fe96e5dd977fc06ca0e7c6",
+    "bytes": 1315763,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "orpo",
+    "url": "https://arxiv.org/pdf/2403.07691",
+    "sha256": "b7bea325e50e4f6c4efa45d76b6823b72f4c391e9808f5c581729408bb6e91f3",
+    "bytes": 1395389,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "kto",
+    "url": "https://arxiv.org/pdf/2402.01306",
+    "sha256": "8d8f158b8c96a825b55fea61c2d420a6e6f6ddfc3939fad1f11ed45552603102",
+    "bytes": 929595,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "rloo",
+    "url": "https://arxiv.org/pdf/2402.14740",
+    "sha256": "c997e5b1fe4e767385f6d4bcab2427ff1f65398572f79143feb899da1b6da398",
+    "bytes": 989314,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "dapo",
+    "url": "https://arxiv.org/pdf/2503.14476",
+    "sha256": "f01e4fd347530cadd68e5c36b1998532a6d1adb272c817e73b927453c26e9d79",
+    "bytes": 826801,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "dr_grpo",
+    "url": "https://arxiv.org/pdf/2503.20783",
+    "sha256": "98243d51297f011fb5baad8a70a972d061ffbef618f1d7cfc10deea37c5887d0",
+    "bytes": 1620055,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  },
+  {
+    "name": "gspo",
+    "url": "https://arxiv.org/pdf/2507.18071",
+    "sha256": "67221ec313f42d8b3029686b604b2621a311ae0d74e38524092e7c7a94613bd0",
+    "bytes": 458773,
+    "checked_at": "2026-11-16",
+    "status": "downloaded"
+  }
+]

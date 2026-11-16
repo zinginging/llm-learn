@@ -1,0 +1,290 @@
+{
+  "method": "ipo",
+  "initial_checkpoint": "tmp/sft",
+  "steps": 40,
+  "seed": 17,
+  "training_rows": 25,
+  "policy_tensors_changed": 29,
+  "test_before": {
+    "count": 6,
+    "exact_accuracy": 0.0,
+    "examples": [
+      {
+        "prompt": "0+3=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+5=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+0=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+5=",
+        "answer": "8",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "5+1=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "5+3=",
+        "answer": "8",
+        "generated": "5",
+        "correct": false
+      }
+    ]
+  },
+  "test_after": {
+    "count": 6,
+    "exact_accuracy": 0.0,
+    "examples": [
+      {
+        "prompt": "0+3=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+5=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+0=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+5=",
+        "answer": "8",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "5+1=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "5+3=",
+        "answer": "8",
+        "generated": "5",
+        "correct": false
+      }
+    ]
+  },
+  "train_probe_after": {
+    "count": 25,
+    "exact_accuracy": 0.24,
+    "examples": [
+      {
+        "prompt": "0+0=",
+        "answer": "0",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "0+1=",
+        "answer": "1",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "0+2=",
+        "answer": "2",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "0+4=",
+        "answer": "4",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "0+5=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "1+0=",
+        "answer": "1",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+1=",
+        "answer": "2",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+2=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+3=",
+        "answer": "4",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "1+4=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "2+0=",
+        "answer": "2",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "2+1=",
+        "answer": "3",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "2+3=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "2+4=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+1=",
+        "answer": "4",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+2=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "3+3=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "3+4=",
+        "answer": "7",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "4+0=",
+        "answer": "4",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "4+1=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "4+2=",
+        "answer": "6",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "4+3=",
+        "answer": "7",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "4+4=",
+        "answer": "8",
+        "generated": "5",
+        "correct": false
+      },
+      {
+        "prompt": "5+0=",
+        "answer": "5",
+        "generated": "5",
+        "correct": true
+      },
+      {
+        "prompt": "5+5=",
+        "answer": "10",
+        "generated": "5",
+        "correct": false
+      }
+    ]
+  },
+  "training_logs": [
+    {
+      "loss": 24.4513,
+      "grad_norm": 65.98782348632812,
+      "learning_rate": 5.25e-05,
+      "rewards/chosen": -0.0010429382091388106,
+      "rewards/rejected": -0.0066255540587008,
+      "rewards/accuracies": 0.875,
+      "rewards/margins": 0.00558261526748538,
+      "logps/chosen": -1.0395357608795166,
+      "logps/rejected": -1.186722993850708,
+      "logits/chosen": -0.8738625645637512,
+      "logits/rejected": -0.8838611841201782,
+      "epoch": 5.0,
+      "step": 20
+    },
+    {
+      "loss": 24.0012,
+      "grad_norm": 50.23270034790039,
+      "learning_rate": 2.5e-06,
+      "rewards/chosen": -0.007626498583704233,
+      "rewards/rejected": -0.01787812076508999,
+      "rewards/accuracies": 0.8812500238418579,
+      "rewards/margins": 0.010251622647047043,
+      "logps/chosen": -1.0751936435699463,
+      "logps/rejected": -1.3170021772384644,
+      "logits/chosen": -0.9846744537353516,
+      "logits/rejected": -1.0006015300750732,
+      "epoch": 10.0,
+      "step": 40
+    },
+    {
+      "train_runtime": 0.3783,
+      "train_samples_per_second": 845.906,
+      "train_steps_per_second": 105.738,
+      "total_flos": 0.0,
+      "train_loss": 24.22626724243164,
+      "epoch": 10.0,
+      "step": 40
+    }
+  ],
+  "scope": "固定SFT起点的微型语言模型训练；人工偏好标签来自算术程序，不是人类偏好评测"
+}

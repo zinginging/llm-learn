@@ -1,0 +1,32 @@
+[
+  {
+    "name": "trl_sft",
+    "url": "https://raw.githubusercontent.com/huggingface/trl/v0.28.0/docs/source/sft_trainer.md",
+    "sha256": "d1c8ca26301fcf2560228e6e1d02db46031efc09a0ece964edccbcf0d666e469",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "name": "trl_grpo",
+    "url": "https://raw.githubusercontent.com/huggingface/trl/v0.28.0/docs/source/grpo_trainer.md",
+    "sha256": "d87435612c9496b5899b802ecc56e5e3af6057e0d1123ae564c3365ddefbbf0e",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "name": "instructgpt",
+    "url": "https://arxiv.org/pdf/2203.02155",
+    "sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "name": "r1",
+    "url": "https://arxiv.org/pdf/2501.12948",
+    "sha256": "b191b0a365a64b4ab2791d117069ed17a2933d03554a662ced58b37df52018f4",
+    "checked_at": "2026-11-16"
+  },
+  {
+    "name": "deepseekmath",
+    "url": "https://arxiv.org/pdf/2402.03300",
+    "sha256": "6cc20b3c5b8d25b8b53868fc4ec1792c144f07d67bdf7395138efd4422197e7b",
+    "checked_at": "2026-11-16"
+  }
+]

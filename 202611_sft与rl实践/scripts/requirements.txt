@@ -1,0 +1,5 @@
+# Install PyTorch separately for the target CPU/CUDA platform; tested CPU build: 2.5.1+cpu.
+trl==0.28.0
+transformers==4.57.3
+datasets==4.4.1
+accelerate==1.11.0
