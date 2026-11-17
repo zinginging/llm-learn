@@ -1,0 +1,832 @@
+{
+  "checked_at": "2026-11-17",
+  "scope": "固定文本散列/版本/语法；不是五框架测试",
+  "files": [
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "README.md",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/README.md",
+      "sha256": "ced45ca654f9ba008269f965d4fe8b433dad4b383612356a44b2fa4290ee5160",
+      "bytes": 81818,
+      "lines": 1689
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "LICENSE",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/LICENSE",
+      "sha256": "7650ef0576603b337c310b9ad9dc051819257213abc44b720d9e678f8e4f4c40",
+      "bytes": 1066,
+      "lines": 21
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "pyproject.toml",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/pyproject.toml",
+      "sha256": "95af5102b222da544c55ef37e4b3f03f7aa0afd11856f3d2f3dbb86fc2626ee1",
+      "bytes": 13081,
+      "lines": 372
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/context/__init__.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/__init__.py",
+      "sha256": "380d8989b0a08e76223b48fd3b3d3d80c5475f8e9380d2aa10a361c069e14246",
+      "bytes": 9619,
+      "lines": 268,
+      "top_level_symbols": []
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/context/grounded_context.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/grounded_context.py",
+      "sha256": "e16e7a6cd6cd6634859c3aac96ff4b423a1ab8c47f3869d227e1e7e367b4bf6e",
+      "bytes": 13309,
+      "lines": 334,
+      "top_level_symbols": [
+        "GroundedContextAssembler"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/context/truth_maintenance_filter.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/truth_maintenance_filter.py",
+      "sha256": "4aa92c25d3b94805b32c51f97739b3116a22ab55d31b42b173c502195a615acb",
+      "bytes": 6313,
+      "lines": 165,
+      "top_level_symbols": [
+        "TruthMaintenanceContextFilter"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/provenance/storage.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/provenance/storage.py",
+      "sha256": "1ad0e112f85802aab2fd64579c76a7718c798c131e3fa5af85bb2e6064650f42",
+      "bytes": 38334,
+      "lines": 1048,
+      "top_level_symbols": [
+        "ProvenanceStorage",
+        "InMemoryStorage",
+        "SQLiteStorage"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/mcp_server/__main__.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/mcp_server/__main__.py",
+      "sha256": "5f3a2b61238c4950c32b484450558b569ab375aba6c738b39f17ea68a8c4c183",
+      "bytes": 133,
+      "lines": 8,
+      "top_level_symbols": []
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/context/policy_engine.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/policy_engine.py",
+      "sha256": "6281dff164f3a0502a7626ef4379209efddf13a984265f5f56239f171db8e397",
+      "bytes": 43641,
+      "lines": 1068,
+      "top_level_symbols": [
+        "PolicyEngine"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "tests/context/test_grounded_context_assembler.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/tests/context/test_grounded_context_assembler.py",
+      "sha256": "9b187f3fffb0dc78ce0cba721382e9ab299b011c4320dd0ce43df95e1eabc563",
+      "bytes": 21125,
+      "lines": 570,
+      "top_level_symbols": [
+        "session_with_provider",
+        "registered_pair",
+        "test_budget_never_keeps_summary_without_its_citation",
+        "test_update_during_retrieval_aborts_assembly",
+        "test_invalid_high_scoring_candidate_is_excluded_before_top_k",
+        "test_provider_is_captured_once_and_registry_snapshotted_once",
+        "test_store_rows_are_never_mutated_by_assembly",
+        "test_tampered_content_is_rejected_as_content_mismatch",
+        "test_unregistered_artifact_id_is_unknown_artifact",
+        "test_unannotated_legacy_candidate_is_missing_annotation",
+        "test_citation_artifact_is_rejected_as_body_text",
+        "test_two_blocks_share_one_citation_label",
+        "test_exact_budget_boundary_is_accepted",
+        "test_oversized_block_is_skipped_and_smaller_blocks_still_fit",
+        "test_zero_budget_returns_empty_context_with_view_identity",
+        "test_invalid_arguments_raise_validation_error",
+        "test_no_valid_candidates_returns_empty_context",
+        "test_registration_during_retrieval_aborts_assembly",
+        "test_returned_context_is_frozen",
+        "test_invalidated_summary_disappears_with_its_citation",
+        "ordinary_row",
+        "test_ordinary_candidate_keeps_source_without_citations_or_store_writes",
+        "test_ordinary_candidate_mixes_with_registered_summary",
+        "test_ordinary_support_retraction_is_filtered_before_top_k",
+        "test_ordinary_budget_exclusion_keeps_pre_ranking_candidate_id",
+        "test_mismatched_registry_namespace_fails_before_retrieval",
+        "RowMemoryStore",
+        "unannotated_row",
+        "test_blank_passage_is_excluded_instead_of_failing_assembly",
+        "test_summary_returned_by_two_sources_is_admitted_once",
+        "test_identical_passages_are_admitted_once",
+        "test_ungrounded_rows_do_not_push_grounded_rows_out_of_the_pool",
+        "test_candidate_pool_must_be_a_positive_integer"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/mcp_server/__init__.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/mcp_server/__init__.py",
+      "sha256": "3d97c5177d331b93b780cd79dda9603b1e395975986c35b81377efd14dea9186",
+      "bytes": 50518,
+      "lines": 1166,
+      "top_level_symbols": [
+        "_get_graph",
+        "_save_graph",
+        "_tool_extract_entities",
+        "_tool_extract_relations",
+        "_tool_record_decision",
+        "_tool_query_decisions",
+        "_tool_find_precedents",
+        "_tool_get_causal_chain",
+        "_drop_link_edges",
+        "_tool_link_decisions",
+        "_tool_add_entity",
+        "_tool_add_relationship",
+        "_tool_run_reasoning",
+        "_pagerank_rankings",
+        "_community_count",
+        "_tool_get_graph_analytics",
+        "_tool_export_graph",
+        "_tool_get_graph_summary",
+        "_tool_update_node",
+        "_tool_delete_node",
+        "_tool_query_graph",
+        "_read_resource",
+        "_handle",
+        "_run_stdio",
+        "main"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/ontology/quality_gate.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ontology/quality_gate.py",
+      "sha256": "7937db13885ab517e66ae7f111552e92247bbb9fcedb15af8e5903c0d60fab75",
+      "bytes": 31121,
+      "lines": 855,
+      "top_level_symbols": [
+        "QualitySeverity",
+        "QualityIssue",
+        "OntologyQualityReport",
+        "OntologyQualityGate",
+        "ontology_quality_check"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/reasoning/truth_maintenance.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/reasoning/truth_maintenance.py",
+      "sha256": "492802a36c6c0b9e7b0c4ded5235db3e71758a4d8e638d4066459332b9d2c2af",
+      "bytes": 24223,
+      "lines": 603,
+      "top_level_symbols": [
+        "_variable",
+        "_SessionState",
+        "TruthMaintenanceSession",
+        "_check_arity",
+        "_match_snapshot",
+        "_coerce_support_iterable",
+        "_coerce_id_iterable"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/ingest/__init__.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ingest/__init__.py",
+      "sha256": "fbb808b9e2e6c703429cfdf33e10ca84c531d4b462f61702e3db421331ca91e3",
+      "bytes": 27708,
+      "lines": 716,
+      "top_level_symbols": [
+        "__getattr__"
+      ]
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+      "path": "semantica/ingest/registry.py",
+      "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ingest/registry.py",
+      "sha256": "2e95f0afc03426033b5acff2645c12fc67db4591bdfc97614d084370c2555873",
+      "bytes": 4800,
+      "lines": 153,
+      "top_level_symbols": [
+        "MethodRegistry"
+      ]
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "README.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/README.md",
+      "sha256": "8d902a70b6313c31f05f086aae98f0757519aaa3ba0632c467ce8188b68275a6",
+      "bytes": 14103,
+      "lines": 195
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "LICENSE",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/LICENSE",
+      "sha256": "17684bf46da758c49fe28f00ad5ad775cef4b16a011ecd7759f54a6804bfc045",
+      "bytes": 11366,
+      "lines": 202
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/quickstart.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/quickstart.md",
+      "sha256": "1a8a70dbc749053aa97308271925d5aafb99588d7fe8dbf69cd911d96e727ede",
+      "bytes": 15284,
+      "lines": 331
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/architecture/architecture.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/architecture/architecture.md",
+      "sha256": "df5c80ba40cc0343eb8c4cfc0660f6bb2e883f64f87f4df1d033c82de0b27129",
+      "bytes": 3661,
+      "lines": 52
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/authorization/policies.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/authorization/policies.md",
+      "sha256": "fc6bfe324979d2cb13880dfcb95589182329b02eda77a2b583115c50a273bf10",
+      "bytes": 84792,
+      "lines": 869
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "datahub-agent-context/README.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/README.md",
+      "sha256": "71dae216d3c8ff615ade118a8c8103a39ad7bd0f1b7779313f1de3dff71ea41b",
+      "bytes": 2403,
+      "lines": 74
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "datahub-agent-context/src/datahub_agent_context/mcp_tools/queries.py",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/src/datahub_agent_context/mcp_tools/queries.py",
+      "sha256": "578fb215c0a2ddcf2be17cbb5d529f43bb374ac2165cc00746b23c4aa7f6836d",
+      "bytes": 6864,
+      "lines": 191,
+      "top_level_symbols": [
+        "_deduplicate_subjects",
+        "get_dataset_queries"
+      ]
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "datahub-agent-context/src/datahub_agent_context/mcp_tools/base.py",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/src/datahub_agent_context/mcp_tools/base.py",
+      "sha256": "2c59ec5a3d1e6837b99f1a51543af0603da5f6ddb737a0925724d2193ca03bc5",
+      "bytes": 12834,
+      "lines": 387,
+      "top_level_symbols": [
+        "execute_graphql",
+        "_is_datahub_cloud",
+        "_is_field_validation_error",
+        "_enable_newer_gms_fields",
+        "_disable_newer_gms_fields",
+        "_enable_cloud_fields",
+        "_disable_cloud_fields",
+        "fetch_global_default_view",
+        "fetch_user_default_view",
+        "resolve_default_view",
+        "clean_gql_response"
+      ]
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "metadata-models/src/main/pegasus/com/linkedin/metadata/key/DatasetKey.pdl",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-models/src/main/pegasus/com/linkedin/metadata/key/DatasetKey.pdl",
+      "sha256": "9f51adea41cd8e80213258e0397db57d20e295adf6ad71d681c57fa7e75d9509",
+      "bytes": 1372,
+      "lines": 65
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "metadata-models/src/main/pegasus/com/linkedin/dataset/UpstreamLineage.pdl",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-models/src/main/pegasus/com/linkedin/dataset/UpstreamLineage.pdl",
+      "sha256": "459ab18a933b2e0fce24fa38eec1661318277e24d241e9e794622ebed6f74108",
+      "bytes": 546,
+      "lines": 29
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/pgqueue-design.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/pgqueue-design.md",
+      "sha256": "b7e996d62c111007e8888da087261cdc09b189f5dab20af61b3dcf6abaff8721",
+      "bytes": 64246,
+      "lines": 813
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/ui-ingestion.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/ui-ingestion.md",
+      "sha256": "97d27e586505f7579bfa0a43be8b6bb04691ff855c2e4a01b71de29a897d3135",
+      "bytes": 20432,
+      "lines": 386
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "docs/metadata-ingestion-security.md",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/metadata-ingestion-security.md",
+      "sha256": "4c68c91c713e581b7f1adc56626d8cc7f01a8dcceea007818fec6f584a027816",
+      "bytes": 7760,
+      "lines": 122
+    },
+    {
+      "repo": "datahub-project/datahub",
+      "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+      "path": "metadata-ingestion/src/datahub/ingestion/api/source.py",
+      "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-ingestion/src/datahub/ingestion/api/source.py",
+      "sha256": "81e40eabbd9b334ae6d39630ce4eddc8407ad518c6bc816ee9761bda5b73da71",
+      "bytes": 30388,
+      "lines": 802,
+      "top_level_symbols": [
+        "SourceCapability",
+        "StructuredLogLevel",
+        "StructuredLogCategory",
+        "StructuredLogEntry",
+        "StructuredLogs",
+        "SourceReport",
+        "CapabilityReport",
+        "TestConnectionReport",
+        "Extractor",
+        "Source",
+        "TestableSource"
+      ]
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "README.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/README.md",
+      "sha256": "1e4bb2eb3fd9c7e3848009fa7940ed30684ce9bc31d35c591e4bfa0b4bd2f383",
+      "bytes": 22836,
+      "lines": 377
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "LICENSE",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "lines": 201
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ARCHITECTURE.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ARCHITECTURE.md",
+      "sha256": "ba632e5acd88689f9e3aed9b812e82a2256d436f1123c194ba880e0cffb43c1e",
+      "bytes": 13455,
+      "lines": 165
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "THREAT_MODEL.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/THREAT_MODEL.md",
+      "sha256": "1f60cd9be26a7ca99b3884834af976c4a4717ac074145f95524f9ca1dfd2dc1a",
+      "bytes": 9142,
+      "lines": 270
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-mcp/README.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-mcp/README.md",
+      "sha256": "e1b9805c99d6bacfad1eea5d8b4d6d31bc9f95e0f422b53e412184c0e9c07c49",
+      "bytes": 26137,
+      "lines": 428
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "pom.xml",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/pom.xml",
+      "sha256": "83314d73153291f8c2b39981c010f572eb1841e23301826b6fd29c66efe45c8a",
+      "bytes": 54547,
+      "lines": 1343
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "docs/decisions/2026-11-15-ontology-studio-ui-ships-only-in-collate.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/decisions/2026-11-15-ontology-studio-ui-ships-only-in-collate.md",
+      "sha256": "41b80a1a2743e5abb714fcc016ead9260bcf022841f788ad2500768b45de9447",
+      "bytes": 5206,
+      "lines": 74
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "docs/rdf-ontology-contract.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/rdf-ontology-contract.md",
+      "sha256": "124fc40628e58d32d78d5ccac3438b88e0e8ac208f50be573f857d6ebff77500",
+      "bytes": 14294,
+      "lines": 242
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "docs/rdf-production-setup.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/rdf-production-setup.md",
+      "sha256": "c3ad2f0e9d0ade40989f53faf8aa6127c724e8b61807d894a34db85b47060157",
+      "bytes": 51693,
+      "lines": 723
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "docs/mcp-client-security.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/mcp-client-security.md",
+      "sha256": "54b12f553e39766f95883a65b1977d7eb9d5d7202e8a5f8c1b9b1fc24bae4724",
+      "bytes": 6940,
+      "lines": 106
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/ontology.json",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/ontology.json",
+      "sha256": "31c7caba2682d078640ca1f997ef6e49aa83195ef0080740220fa03a508ae88a",
+      "bytes": 3618,
+      "lines": 108
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/table.json",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/table.json",
+      "sha256": "f80ebb0e8923c1b799334d9b52f094b31e668a1030b43e389796bb9afa41c16f",
+      "bytes": 44625,
+      "lines": 1384
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-mcp/src/main/java/org/openmetadata/mcp/tools/SearchMetadataTool.java",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-mcp/src/main/java/org/openmetadata/mcp/tools/SearchMetadataTool.java",
+      "sha256": "3f869da6d3bc66200f912c15441b1d46cd50816a381a8680871068dbc59a8379",
+      "bytes": 41717,
+      "lines": 1010
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-service/src/main/java/org/openmetadata/service/resources/rdf/RdfResource.java",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-service/src/main/java/org/openmetadata/service/resources/rdf/RdfResource.java",
+      "sha256": "2fcbdf429024d536391cd2d30fd594bf32a9cbc762e310cb3e5af9d588102d21",
+      "bytes": 76930,
+      "lines": 1718
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-spec/src/main/resources/json/schema/entity/services/databaseService.json",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/services/databaseService.json",
+      "sha256": "8673de56247fbf93fdfb9cdd11bc243ba7d048ed0ad5d4078c912a7c5c71174b",
+      "bytes": 15915,
+      "lines": 578
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-spec/src/main/resources/json/schema/entity/services/apiService.json",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/services/apiService.json",
+      "sha256": "3cfe1e9586c0abfb8284f3c4c3899861715e2b06d939435aa4d4621cbd75cf0c",
+      "bytes": 5614,
+      "lines": 164
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/apiEndpoint.json",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/apiEndpoint.json",
+      "sha256": "06181ffaf2f9f9d33765e1374d0a30510d92f31b70679d10eec4099fee93fba3",
+      "bytes": 6527,
+      "lines": 198
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ingestion/src/metadata/ingestion/api/steps.py",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/api/steps.py",
+      "sha256": "d45386eb1a0122eaf8ff19f75d48ee347954d404b4c5659123e7d89a97f5d9bc",
+      "bytes": 3322,
+      "lines": 116,
+      "top_level_symbols": [
+        "InvalidSourceException",
+        "Source",
+        "Sink",
+        "Processor",
+        "Stage",
+        "BulkSink"
+      ]
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ingestion/src/metadata/ingestion/source/api/rest/metadata.py",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/source/api/rest/metadata.py",
+      "sha256": "5293ad27bea2a510a00cd9846398ca097a767edfbdb512522bfbce47d3b077dc",
+      "bytes": 29498,
+      "lines": 642,
+      "top_level_symbols": [
+        "RestSource"
+      ]
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ingestion/src/metadata/ingestion/source/api/rest/service_spec.py",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/source/api/rest/service_spec.py",
+      "sha256": "18ef746bc6ff34143a85ed572813de39694bc2ae7cae7d11cfdba85dd3ab7beb",
+      "bytes": 319,
+      "lines": 5,
+      "top_level_symbols": []
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ingestion/LICENSE",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/LICENSE",
+      "sha256": "6f9b34a0b81a2073dd3c5c13c7ee3206c28d57040e547070588872c115bfaf97",
+      "bytes": 6933,
+      "lines": 114
+    },
+    {
+      "repo": "open-metadata/OpenMetadata",
+      "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+      "path": "ingestion/README.md",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/README.md",
+      "sha256": "debfcce668e983666d852745130f6a43a7bf68720360b5a6382732c41bf828d5",
+      "bytes": 1886,
+      "lines": 39
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "README.md",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/README.md",
+      "sha256": "f466c451d308ba412de0eeaa1f9c63a81b8bd9580c1c1b3860e8e16e6517c618",
+      "bytes": 3658,
+      "lines": 72
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "LICENSE.txt",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "lines": 201
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "pom.xml",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/pom.xml",
+      "sha256": "4bdb319078adf93aa63b400060dbdfc5b035f596fc5c02dc7641e05159dac98b",
+      "bytes": 78629,
+      "lines": 1743
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "client/cli/src/test/resources/books/exampleBooks.obda",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/test/resources/books/exampleBooks.obda",
+      "sha256": "481977e3a2b2daef914cf72ebbca6a60a9e013fd2b09f99919aee3639ce9e5eb",
+      "bytes": 1720,
+      "lines": 49
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "client/cli/src/test/resources/books/exampleBooks.ttl",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/test/resources/books/exampleBooks.ttl",
+      "sha256": "e16784d7ecd254de21f60853fe9d156f0754b5fd922562d269785cc055b44c05",
+      "bytes": 16664,
+      "lines": 285
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "engine/reformulation/core/src/main/java/it/unibz/inf/ontop/answering/reformulation/QueryReformulator.java",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/engine/reformulation/core/src/main/java/it/unibz/inf/ontop/answering/reformulation/QueryReformulator.java",
+      "sha256": "35072e5b720b265d83e898b8ed78845f10387914c0a0b9b74337953c5c4a0df1",
+      "bytes": 942,
+      "lines": 29
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "client/endpoint/src/main/java/it/unibz/inf/ontop/endpoint/controllers/SparqlQueryController.java",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/endpoint/src/main/java/it/unibz/inf/ontop/endpoint/controllers/SparqlQueryController.java",
+      "sha256": "d7d696481b71011f580071f1581d0efd7a3d228d90741605d1bb47486b7149be",
+      "bytes": 4051,
+      "lines": 91
+    },
+    {
+      "repo": "ontop/ontop",
+      "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+      "path": "client/cli/src/main/java/it/unibz/inf/ontop/cli/OntopQuery.java",
+      "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/main/java/it/unibz/inf/ontop/cli/OntopQuery.java",
+      "sha256": "847dd89ca27fe79a24e45ccc105341a64c27a7512632d6a8cde1abff19d1cf22",
+      "bytes": 5378,
+      "lines": 146
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "README.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/README.md",
+      "sha256": "36df9326f1e83343fd46373a2a059093590e4c2ad2256d3ed5de5c5e6e492709",
+      "bytes": 5099,
+      "lines": 79
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "LICENSE",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "lines": 21
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "pyproject.toml",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/pyproject.toml",
+      "sha256": "e7ebce5c2fe82a6518c48f1f9d25535829f04f3cb5cb7ef85a19b1952b87ddac",
+      "bytes": 9412,
+      "lines": 261
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/index/architecture.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/architecture.md",
+      "sha256": "510913bb953e0a9675fc386ee84ea204f3cd6a3b37caaa19ac33754b6a652232",
+      "bytes": 4117,
+      "lines": 53
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/index/methods.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/methods.md",
+      "sha256": "c5e622f27ee4a219c698f420d3f2c2e1ce3b3a5da893708141302b3037dfddb6",
+      "bytes": 4112,
+      "lines": 44
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/index/outputs.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/outputs.md",
+      "sha256": "c47f162233d20500de4bfc95928c9a2ccf4378db0fd9ff3bf68793962d85b5f5",
+      "bytes": 7364,
+      "lines": 109
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/query/global_search.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/global_search.md",
+      "sha256": "4ef4bcc439976ed04a1b246a636e64e797df6483c82da0e1be1a1105d602460c",
+      "bytes": 6024,
+      "lines": 73
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/query/local_search.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/local_search.md",
+      "sha256": "a04d2387ffda67744f33c183e0bfeb2cd3783b2ced6de95b0cd5d36228c8b473",
+      "bytes": 4524,
+      "lines": 61
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/query/drift_search.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/drift_search.md",
+      "sha256": "37f4578ef1571ca297faa66be4535b3f58d488c975c5177a9f4abd4a716e4e24",
+      "bytes": 4335,
+      "lines": 36
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "packages/graphrag/pyproject.toml",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/pyproject.toml",
+      "sha256": "74bc4480d30a64ceb08181e842d690dcc1f11453e573b804396e81885e6d3131",
+      "bytes": 2901,
+      "lines": 77
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+      "sha256": "c201e86aa401452ab4b5eee25f439283b572e7148ab3d823bf555f68c495cd30",
+      "bytes": 20309,
+      "lines": 521,
+      "top_level_symbols": [
+        "GlobalSearchResult",
+        "GlobalSearch"
+      ]
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "packages/graphrag/graphrag/query/structured_search/local_search/search.py",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/local_search/search.py",
+      "sha256": "bf83cd5154b93be491a3b6cde0813f8b29b52f75214b1b4f1d64f1a424041b7c",
+      "bytes": 6923,
+      "lines": 183,
+      "top_level_symbols": [
+        "LocalSearch"
+      ]
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "packages/graphrag/graphrag/query/structured_search/drift_search/search.py",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/drift_search/search.py",
+      "sha256": "32870526eb655235a656b33bb954004c81c49b8146189d3d8bd627ec6a702416",
+      "bytes": 17111,
+      "lines": 464,
+      "top_level_symbols": [
+        "DRIFTSearch"
+      ]
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "packages/graphrag/graphrag/cli/main.py",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/cli/main.py",
+      "sha256": "0bc431a0dcaee7fbedf1eba3d63beaabddf85f85a1fd356e28777669df62868a",
+      "bytes": 13839,
+      "lines": 481,
+      "top_level_symbols": [
+        "path_autocomplete",
+        "_initialize_cli",
+        "_index_cli",
+        "_update_cli",
+        "_prompt_tune_cli",
+        "_query_cli"
+      ]
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+      "path": "docs/index/inputs.md",
+      "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/inputs.md",
+      "sha256": "14fe57e2c963c1644f87f66e85a0d66c5b1013677212910666b0568743103091",
+      "bytes": 25860,
+      "lines": 236
+    }
+  ]
+}

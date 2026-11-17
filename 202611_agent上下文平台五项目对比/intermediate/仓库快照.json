@@ -1,0 +1,42 @@
+[
+  {
+    "repo": "semantica-agi/semantica",
+    "sha": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "version": "main:0.8.0; 当时latest release:v0.7.0",
+    "license": "MIT",
+    "reviewed_at": "2026-11-16",
+    "recovered_at": "2026-11-17"
+  },
+  {
+    "repo": "datahub-project/datahub",
+    "sha": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "version": "当时latest release:v1.9.0",
+    "license": "Apache-2.0",
+    "reviewed_at": "2026-11-16",
+    "recovered_at": "2026-11-17"
+  },
+  {
+    "repo": "open-metadata/OpenMetadata",
+    "sha": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "version": "main POM:2.0.0-SNAPSHOT; 当时latest release:2.0.8-release",
+    "license": "根目录Apache-2.0；ingestion为Collate Community License 1.0",
+    "reviewed_at": "2026-11-16",
+    "recovered_at": "2026-11-17"
+  },
+  {
+    "repo": "ontop/ontop",
+    "sha": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "version": "main:5.6.0-SNAPSHOT; 当时latest release:ontop-5.5.0",
+    "license": "Apache-2.0",
+    "reviewed_at": "2026-11-16",
+    "recovered_at": "2026-11-17"
+  },
+  {
+    "repo": "microsoft/graphrag",
+    "sha": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "version": "包3.3.0；根workspace:0.0.0",
+    "license": "MIT",
+    "reviewed_at": "2026-11-16",
+    "recovered_at": "2026-11-17"
+  }
+]

@@ -1,0 +1,6 @@
+PREFIX : <https://example.org/business/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (SUM(?n) AS ?netCents) WHERE {
+  ?o a :PaidOrder ; :tenant "A" ; :region "east" ; :paidAt ?t ; :netCents ?n .
+  FILTER (?t >= "2026-09-30T16:00:00Z"^^xsd:dateTime && ?t < "2026-10-31T16:00:00Z"^^xsd:dateTime)
+}

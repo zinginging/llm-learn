@@ -1,0 +1,9 @@
+[PrefixDeclaration]
+:       https://example.org/business/
+xsd:    http://www.w3.org/2001/XMLSchema#
+
+[MappingDeclaration] @collection [[
+mappingId paid_orders
+target :order/{order_id} a :PaidOrder ; :tenant {tenant_id} ; :region {region} ; :paidAt {paid_at_utc}^^xsd:dateTime ; :netCents {net_cents}^^xsd:integer .
+source SELECT order_id, tenant_id, region, paid_at_utc, paid_cents-refund_cents AS net_cents FROM orders WHERE status='paid'
+]]

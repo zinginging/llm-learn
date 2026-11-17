@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-17",
+  "scope": "重建后自建离线示例，非五框架测试",
+  "baseline_cents": 25000,
+  "wrong_join_cents": 35000,
+  "updated_cents": 24000,
+  "utc_bounds": [
+    "2026-09-30T16:00:00Z",
+    "2026-10-31T16:00:00Z"
+  ],
+  "checks": "月份、fan-out、权限、版本、空窗口、缓存与证据检查通过"
+}

@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-11-17",
+  "scope": "重建后自建原型，无真实来源/UI/框架",
+  "bindings": [
+    {
+      "id": "sql",
+      "kind": "sql",
+      "schema": "sql-v1",
+      "asset": "sales.orders",
+      "canonical": "order-net@1",
+      "state": "published",
+      "health": "ready",
+      "secret_ref": "secret://test/sql"
+    },
+    {
+      "id": "rest",
+      "kind": "rest",
+      "schema": "rest-v1",
+      "asset": "sales.orders",
+      "canonical": "order-net@1",
+      "state": "published",
+      "health": "ready",
+      "secret_ref": "secret://test/rest"
+    },
+    {
+      "id": "hbase",
+      "kind": "hbase",
+      "schema": "hbase-v1",
+      "asset": "sales.orders",
+      "canonical": "order-net@1",
+      "state": "published",
+      "health": "ready",
+      "secret_ref": "secret://test/hbase"
+    }
+  ],
+  "canonical_records": [
+    [
+      "1",
+      "A",
+      10000,
+      "CNY"
+    ],
+    [
+      "2",
+      "A",
+      15000,
+      "CNY"
+    ]
+  ],
+  "selected": "sql",
+  "context_bundle": {
+    "metric": "net_receipts",
+    "metric_version": "v1",
+    "value_cents": 25000,
+    "currency": "CNY",
+    "status": "partial",
+    "missing_optional": [
+      "notes"
+    ]
+  },
+  "incorrect_replica_total_cents": 75000,
+  "checks": "格式等价、发布/Schema/权限/金额/分页/回退/必需项检查通过"
+}

@@ -1,0 +1,10 @@
+@prefix : <https://example.org/business/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:Order a owl:Class .
+:PaidOrder a owl:Class ; rdfs:subClassOf :Order .
+:tenant a owl:DatatypeProperty ; rdfs:range xsd:string .
+:region a owl:DatatypeProperty ; rdfs:range xsd:string .
+:paidAt a owl:DatatypeProperty ; rdfs:range xsd:dateTime .
+:netCents a owl:DatatypeProperty ; rdfs:range xsd:integer .

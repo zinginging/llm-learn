@@ -1,0 +1,594 @@
+[
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "README.md",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/README.md",
+    "local": "tmp/sources/0/README.md"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "LICENSE",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/LICENSE",
+    "local": "tmp/sources/0/LICENSE"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "pyproject.toml",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/pyproject.toml",
+    "local": "tmp/sources/0/pyproject.toml"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/context/__init__.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/__init__.py",
+    "local": "tmp/sources/0/semantica/context/__init__.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/context/grounded_context.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/grounded_context.py",
+    "local": "tmp/sources/0/semantica/context/grounded_context.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/context/truth_maintenance_filter.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/truth_maintenance_filter.py",
+    "local": "tmp/sources/0/semantica/context/truth_maintenance_filter.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/provenance/storage.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/provenance/storage.py",
+    "local": "tmp/sources/0/semantica/provenance/storage.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/mcp_server/__main__.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/mcp_server/__main__.py",
+    "local": "tmp/sources/0/semantica/mcp_server/__main__.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/context/policy_engine.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/context/policy_engine.py",
+    "local": "tmp/sources/0/semantica/context/policy_engine.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "tests/context/test_grounded_context_assembler.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/tests/context/test_grounded_context_assembler.py",
+    "local": "tmp/sources/0/tests/context/test_grounded_context_assembler.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/mcp_server/__init__.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/mcp_server/__init__.py",
+    "local": "tmp/sources/0/semantica/mcp_server/__init__.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/ontology/quality_gate.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ontology/quality_gate.py",
+    "local": "tmp/sources/0/semantica/ontology/quality_gate.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/reasoning/truth_maintenance.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/reasoning/truth_maintenance.py",
+    "local": "tmp/sources/0/semantica/reasoning/truth_maintenance.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/ingest/__init__.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ingest/__init__.py",
+    "local": "tmp/sources/0/semantica/ingest/__init__.py"
+  },
+  {
+    "project": 0,
+    "repo": "semantica-agi/semantica",
+    "commit": "066505cf7bf80a7944e1efe729b88f8a2878fd41",
+    "path": "semantica/ingest/registry.py",
+    "url": "https://github.com/semantica-agi/semantica/blob/066505cf7bf80a7944e1efe729b88f8a2878fd41/semantica/ingest/registry.py",
+    "local": "tmp/sources/0/semantica/ingest/registry.py"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "README.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/README.md",
+    "local": "tmp/sources/1/README.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "LICENSE",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/LICENSE",
+    "local": "tmp/sources/1/LICENSE"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/quickstart.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/quickstart.md",
+    "local": "tmp/sources/1/docs/quickstart.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/architecture/architecture.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/architecture/architecture.md",
+    "local": "tmp/sources/1/docs/architecture/architecture.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/authorization/policies.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/authorization/policies.md",
+    "local": "tmp/sources/1/docs/authorization/policies.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "datahub-agent-context/README.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/README.md",
+    "local": "tmp/sources/1/datahub-agent-context/README.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "datahub-agent-context/src/datahub_agent_context/mcp_tools/queries.py",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/src/datahub_agent_context/mcp_tools/queries.py",
+    "local": "tmp/sources/1/datahub-agent-context/src/datahub_agent_context/mcp_tools/queries.py"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "datahub-agent-context/src/datahub_agent_context/mcp_tools/base.py",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/datahub-agent-context/src/datahub_agent_context/mcp_tools/base.py",
+    "local": "tmp/sources/1/datahub-agent-context/src/datahub_agent_context/mcp_tools/base.py"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "metadata-models/src/main/pegasus/com/linkedin/metadata/key/DatasetKey.pdl",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-models/src/main/pegasus/com/linkedin/metadata/key/DatasetKey.pdl",
+    "local": "tmp/sources/1/metadata-models/src/main/pegasus/com/linkedin/metadata/key/DatasetKey.pdl"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "metadata-models/src/main/pegasus/com/linkedin/dataset/UpstreamLineage.pdl",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-models/src/main/pegasus/com/linkedin/dataset/UpstreamLineage.pdl",
+    "local": "tmp/sources/1/metadata-models/src/main/pegasus/com/linkedin/dataset/UpstreamLineage.pdl"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/pgqueue-design.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/pgqueue-design.md",
+    "local": "tmp/sources/1/docs/pgqueue-design.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/ui-ingestion.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/ui-ingestion.md",
+    "local": "tmp/sources/1/docs/ui-ingestion.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "docs/metadata-ingestion-security.md",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/docs/metadata-ingestion-security.md",
+    "local": "tmp/sources/1/docs/metadata-ingestion-security.md"
+  },
+  {
+    "project": 1,
+    "repo": "datahub-project/datahub",
+    "commit": "58672db9b680cb3fdc7a62662ac2806d2a346d31",
+    "path": "metadata-ingestion/src/datahub/ingestion/api/source.py",
+    "url": "https://github.com/datahub-project/datahub/blob/58672db9b680cb3fdc7a62662ac2806d2a346d31/metadata-ingestion/src/datahub/ingestion/api/source.py",
+    "local": "tmp/sources/1/metadata-ingestion/src/datahub/ingestion/api/source.py"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "README.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/README.md",
+    "local": "tmp/sources/2/README.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "LICENSE",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/LICENSE",
+    "local": "tmp/sources/2/LICENSE"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ARCHITECTURE.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ARCHITECTURE.md",
+    "local": "tmp/sources/2/ARCHITECTURE.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "THREAT_MODEL.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/THREAT_MODEL.md",
+    "local": "tmp/sources/2/THREAT_MODEL.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-mcp/README.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-mcp/README.md",
+    "local": "tmp/sources/2/openmetadata-mcp/README.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "pom.xml",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/pom.xml",
+    "local": "tmp/sources/2/pom.xml"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "docs/decisions/2026-11-15-ontology-studio-ui-ships-only-in-collate.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/decisions/2026-11-15-ontology-studio-ui-ships-only-in-collate.md",
+    "local": "tmp/sources/2/docs/decisions/2026-11-15-ontology-studio-ui-ships-only-in-collate.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "docs/rdf-ontology-contract.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/rdf-ontology-contract.md",
+    "local": "tmp/sources/2/docs/rdf-ontology-contract.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "docs/rdf-production-setup.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/rdf-production-setup.md",
+    "local": "tmp/sources/2/docs/rdf-production-setup.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "docs/mcp-client-security.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/docs/mcp-client-security.md",
+    "local": "tmp/sources/2/docs/mcp-client-security.md"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/ontology.json",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/ontology.json",
+    "local": "tmp/sources/2/openmetadata-spec/src/main/resources/json/schema/entity/data/ontology.json"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/table.json",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/table.json",
+    "local": "tmp/sources/2/openmetadata-spec/src/main/resources/json/schema/entity/data/table.json"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-mcp/src/main/java/org/openmetadata/mcp/tools/SearchMetadataTool.java",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-mcp/src/main/java/org/openmetadata/mcp/tools/SearchMetadataTool.java",
+    "local": "tmp/sources/2/openmetadata-mcp/src/main/java/org/openmetadata/mcp/tools/SearchMetadataTool.java"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-service/src/main/java/org/openmetadata/service/resources/rdf/RdfResource.java",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-service/src/main/java/org/openmetadata/service/resources/rdf/RdfResource.java",
+    "local": "tmp/sources/2/openmetadata-service/src/main/java/org/openmetadata/service/resources/rdf/RdfResource.java"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-spec/src/main/resources/json/schema/entity/services/databaseService.json",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/services/databaseService.json",
+    "local": "tmp/sources/2/openmetadata-spec/src/main/resources/json/schema/entity/services/databaseService.json"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-spec/src/main/resources/json/schema/entity/services/apiService.json",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/services/apiService.json",
+    "local": "tmp/sources/2/openmetadata-spec/src/main/resources/json/schema/entity/services/apiService.json"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "openmetadata-spec/src/main/resources/json/schema/entity/data/apiEndpoint.json",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/openmetadata-spec/src/main/resources/json/schema/entity/data/apiEndpoint.json",
+    "local": "tmp/sources/2/openmetadata-spec/src/main/resources/json/schema/entity/data/apiEndpoint.json"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ingestion/src/metadata/ingestion/api/steps.py",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/api/steps.py",
+    "local": "tmp/sources/2/ingestion/src/metadata/ingestion/api/steps.py"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ingestion/src/metadata/ingestion/source/api/rest/metadata.py",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/source/api/rest/metadata.py",
+    "local": "tmp/sources/2/ingestion/src/metadata/ingestion/source/api/rest/metadata.py"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ingestion/src/metadata/ingestion/source/api/rest/service_spec.py",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/src/metadata/ingestion/source/api/rest/service_spec.py",
+    "local": "tmp/sources/2/ingestion/src/metadata/ingestion/source/api/rest/service_spec.py"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ingestion/LICENSE",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/LICENSE",
+    "local": "tmp/sources/2/ingestion/LICENSE"
+  },
+  {
+    "project": 2,
+    "repo": "open-metadata/OpenMetadata",
+    "commit": "930926a86ca8622cd30356706f5b5c7e9cd93afa",
+    "path": "ingestion/README.md",
+    "url": "https://github.com/open-metadata/OpenMetadata/blob/930926a86ca8622cd30356706f5b5c7e9cd93afa/ingestion/README.md",
+    "local": "tmp/sources/2/ingestion/README.md"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "README.md",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/README.md",
+    "local": "tmp/sources/3/README.md"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "LICENSE.txt",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/LICENSE.txt",
+    "local": "tmp/sources/3/LICENSE.txt"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "pom.xml",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/pom.xml",
+    "local": "tmp/sources/3/pom.xml"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "client/cli/src/test/resources/books/exampleBooks.obda",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/test/resources/books/exampleBooks.obda",
+    "local": "tmp/sources/3/client/cli/src/test/resources/books/exampleBooks.obda"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "client/cli/src/test/resources/books/exampleBooks.ttl",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/test/resources/books/exampleBooks.ttl",
+    "local": "tmp/sources/3/client/cli/src/test/resources/books/exampleBooks.ttl"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "engine/reformulation/core/src/main/java/it/unibz/inf/ontop/answering/reformulation/QueryReformulator.java",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/engine/reformulation/core/src/main/java/it/unibz/inf/ontop/answering/reformulation/QueryReformulator.java",
+    "local": "tmp/sources/3/engine/reformulation/core/src/main/java/it/unibz/inf/ontop/answering/reformulation/QueryReformulator.java"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "client/endpoint/src/main/java/it/unibz/inf/ontop/endpoint/controllers/SparqlQueryController.java",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/endpoint/src/main/java/it/unibz/inf/ontop/endpoint/controllers/SparqlQueryController.java",
+    "local": "tmp/sources/3/client/endpoint/src/main/java/it/unibz/inf/ontop/endpoint/controllers/SparqlQueryController.java"
+  },
+  {
+    "project": 3,
+    "repo": "ontop/ontop",
+    "commit": "efeac43a26e834727a23d771a77f304c5a8d08db",
+    "path": "client/cli/src/main/java/it/unibz/inf/ontop/cli/OntopQuery.java",
+    "url": "https://github.com/ontop/ontop/blob/efeac43a26e834727a23d771a77f304c5a8d08db/client/cli/src/main/java/it/unibz/inf/ontop/cli/OntopQuery.java",
+    "local": "tmp/sources/3/client/cli/src/main/java/it/unibz/inf/ontop/cli/OntopQuery.java"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "README.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/README.md",
+    "local": "tmp/sources/4/README.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "LICENSE",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/LICENSE",
+    "local": "tmp/sources/4/LICENSE"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "pyproject.toml",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/pyproject.toml",
+    "local": "tmp/sources/4/pyproject.toml"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/index/architecture.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/architecture.md",
+    "local": "tmp/sources/4/docs/index/architecture.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/index/methods.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/methods.md",
+    "local": "tmp/sources/4/docs/index/methods.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/index/outputs.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/outputs.md",
+    "local": "tmp/sources/4/docs/index/outputs.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/query/global_search.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/global_search.md",
+    "local": "tmp/sources/4/docs/query/global_search.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/query/local_search.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/local_search.md",
+    "local": "tmp/sources/4/docs/query/local_search.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/query/drift_search.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/query/drift_search.md",
+    "local": "tmp/sources/4/docs/query/drift_search.md"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "packages/graphrag/pyproject.toml",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/pyproject.toml",
+    "local": "tmp/sources/4/packages/graphrag/pyproject.toml"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/global_search/search.py",
+    "local": "tmp/sources/4/packages/graphrag/graphrag/query/structured_search/global_search/search.py"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "packages/graphrag/graphrag/query/structured_search/local_search/search.py",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/local_search/search.py",
+    "local": "tmp/sources/4/packages/graphrag/graphrag/query/structured_search/local_search/search.py"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "packages/graphrag/graphrag/query/structured_search/drift_search/search.py",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/query/structured_search/drift_search/search.py",
+    "local": "tmp/sources/4/packages/graphrag/graphrag/query/structured_search/drift_search/search.py"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "packages/graphrag/graphrag/cli/main.py",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/packages/graphrag/graphrag/cli/main.py",
+    "local": "tmp/sources/4/packages/graphrag/graphrag/cli/main.py"
+  },
+  {
+    "project": 4,
+    "repo": "microsoft/graphrag",
+    "commit": "34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857",
+    "path": "docs/index/inputs.md",
+    "url": "https://github.com/microsoft/graphrag/blob/34b2b67ae4601ad0b47bcd179fbe3f2a23aa0857/docs/index/inputs.md",
+    "local": "tmp/sources/4/docs/index/inputs.md"
+  }
+]
