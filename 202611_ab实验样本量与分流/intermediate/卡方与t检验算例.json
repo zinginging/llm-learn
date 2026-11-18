@@ -1,0 +1,56 @@
+{
+  "data_origin": "Synthetic teaching counts and summary statistics; no observed business effect",
+  "scipy_version": "1.17.0",
+  "pearson_chi2_binary_conversion": {
+    "observed": [
+      [
+        1400,
+        12600
+      ],
+      [
+        1554,
+        12446
+      ]
+    ],
+    "expected_under_independence": [
+      [
+        1477.0,
+        12523.0
+      ],
+      [
+        1477.0,
+        12523.0
+      ]
+    ],
+    "continuity_correction": false,
+    "statistic": 8.975333727174226,
+    "degrees_of_freedom": 1,
+    "p_value": 0.0027364859624517354,
+    "pooled_proportion_z_squared": 8.975333727174222,
+    "yates_corrected_p_value_for_comparison": 0.0029162343496109623
+  },
+  "welch_mean_revenue": {
+    "users_a": 100,
+    "users_b": 100,
+    "mean_a_yuan": 100.0,
+    "mean_b_yuan": 110.0,
+    "sample_sd_a_yuan": 30.0,
+    "sample_sd_b_yuan": 30.0,
+    "mean_difference_yuan": 10.0,
+    "standard_error_yuan": 4.242640687119285,
+    "t_statistic_b_minus_a": 2.3570226039551585,
+    "degrees_of_freedom": 198.0,
+    "p_value_two_sided": 0.019398200879066817,
+    "confidence_level": 0.95,
+    "difference_ci_yuan": [
+      1.6334384128212989,
+      18.3665615871787
+    ]
+  },
+  "welch_on_same_binary_conversion_counts": {
+    "t_statistic_b_minus_a": 2.9962593964544317,
+    "p_value_two_sided": 0.0027355366923868555,
+    "note": "Large-sample illustration: close to, not exactly equal to, the Pearson/proportion z result."
+  },
+  "confidence_label_warning": "No posterior win probability is computed. A platform may display 1-p, but the test name does not define that label."
+}

@@ -6,10 +6,13 @@
     "202611_ab实验样本量与分流/output/AB实验的样本量与流量规划.md",
     "202611_ab实验样本量与分流/docs/来源与核验.md",
     "202611_ab实验样本量与分流/docs/置信区间的定义与构造.md",
+    "202611_ab实验样本量与分流/docs/卡方检验与t检验的置信度.md",
     "202611_ab实验样本量与分流/scripts/ab_sample_size.py",
     "202611_ab实验样本量与分流/scripts/ab_result_demo.py",
+    "202611_ab实验样本量与分流/scripts/chi2_t_demo.py",
     "202611_ab实验样本量与分流/intermediate/规划算例.json",
     "202611_ab实验样本量与分流/intermediate/结果置信区间算例.json",
+    "202611_ab实验样本量与分流/intermediate/卡方与t检验算例.json",
     "202611_ab实验样本量与分流/input/交付文件清单.json",
     "202611_大模型数据开发面试/output/08_评测与数据闭环.md"
   ]
