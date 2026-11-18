@@ -1,0 +1,87 @@
+{
+  "data_origin": "Synthetic counts for teaching, not observed business experiment results",
+  "users_14000_per_group": {
+    "users_a": 14000,
+    "conversions_a": 1400,
+    "users_b": 14000,
+    "conversions_b": 1554,
+    "rate_a": 0.1,
+    "rate_b": 0.111,
+    "difference": 0.010999999999999996,
+    "difference_percentage_points": 1.1,
+    "relative_lift_point_estimate": 0.11,
+    "confidence_level_chosen_in_advance": 0.95,
+    "standard_error_for_difference_interval": 0.0036711131048459173,
+    "difference_ci": [
+      0.0038047505313289843,
+      0.01819524946867101
+    ],
+    "difference_ci_percentage_points": [
+      0.3804750531328984,
+      1.8195249468671009
+    ],
+    "pooled_rate_under_equal_rates_hypothesis": 0.1055,
+    "standard_error_under_equal_rates_hypothesis": 0.0036717016296456957,
+    "z_statistic": 2.995886133879961,
+    "p_value_two_sided": 0.0027364859624517427,
+    "reject_equal_rates_at_alpha_normal_approx": true,
+    "warnings": [],
+    "method": "Pooled two-proportion z test; unpooled Wald difference CI. No posterior win probability is calculated."
+  },
+  "same_observed_lift_users_1000_per_group": {
+    "users_a": 1000,
+    "conversions_a": 100,
+    "users_b": 1000,
+    "conversions_b": 111,
+    "rate_a": 0.1,
+    "rate_b": 0.111,
+    "difference": 0.010999999999999996,
+    "difference_percentage_points": 1.1,
+    "relative_lift_point_estimate": 0.11,
+    "confidence_level_chosen_in_advance": 0.95,
+    "standard_error_for_difference_interval": 0.013736047466429344,
+    "difference_ci": [
+      -0.01592215832413417,
+      0.03792215832413416
+    ],
+    "difference_ci_percentage_points": [
+      -1.592215832413417,
+      3.792215832413416
+    ],
+    "pooled_rate_under_equal_rates_hypothesis": 0.1055,
+    "standard_error_under_equal_rates_hypothesis": 0.013738249524593734,
+    "z_statistic": 0.8006842487689702,
+    "p_value_two_sided": 0.4233144635072325,
+    "reject_equal_rates_at_alpha_normal_approx": false,
+    "warnings": [],
+    "method": "Pooled two-proportion z test; unpooled Wald difference CI. No posterior win probability is calculated."
+  },
+  "same_counts_99_percent_interval": {
+    "users_a": 14000,
+    "conversions_a": 1400,
+    "users_b": 14000,
+    "conversions_b": 1554,
+    "rate_a": 0.1,
+    "rate_b": 0.111,
+    "difference": 0.010999999999999996,
+    "difference_percentage_points": 1.1,
+    "relative_lift_point_estimate": 0.11,
+    "confidence_level_chosen_in_advance": 0.99,
+    "standard_error_for_difference_interval": 0.0036711131048459173,
+    "difference_ci": [
+      0.0015438392878954973,
+      0.020456160712104494
+    ],
+    "difference_ci_percentage_points": [
+      0.15438392878954973,
+      2.0456160712104494
+    ],
+    "pooled_rate_under_equal_rates_hypothesis": 0.1055,
+    "standard_error_under_equal_rates_hypothesis": 0.0036717016296456957,
+    "z_statistic": 2.995886133879961,
+    "p_value_two_sided": 0.0027364859624517427,
+    "reject_equal_rates_at_alpha_normal_approx": true,
+    "warnings": [],
+    "method": "Pooled two-proportion z test; unpooled Wald difference CI. No posterior win probability is calculated."
+  }
+}

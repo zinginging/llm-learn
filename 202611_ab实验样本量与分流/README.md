@@ -6,6 +6,8 @@
 
 - [学习文档](output/AB实验的样本量与流量规划.md)：样本量、置信水平、检验功效、分流、周期与结果判断。
 - [计算脚本](scripts/ab_sample_size.py)：Python 标准库实现两组独立转化率的正态近似规划，支持不等比例分流。
+- [结果“置信度”怎么算](output/AB实验的样本量与流量规划.md#confidence)：用人数和转化数逐步计算差异、95% 区间与 p 值，解释为什么 `1−p` 不等于胜出概率。
+- [结果计算脚本](scripts/ab_result_demo.py)、[合成结果算例](intermediate/结果置信区间算例.json)：与实验前样本量规划分开。
 - [计算算例](intermediate/规划算例.json)、[来源与核验](docs/来源与核验.md)。
 - [交付文件清单](input/交付文件清单.json)：用于检查远端保存是否包含全部成果。
 
@@ -13,6 +15,8 @@
 
 ```bash
 python scripts/ab_sample_size.py --self-check
+python scripts/ab_result_demo.py --self-check
+python scripts/ab_result_demo.py --examples
 python scripts/ab_sample_size.py --examples
 python scripts/ab_sample_size.py --baseline 0.10 --target 0.11 --daily-new-users 10000 --enrollment 0.20
 ```
