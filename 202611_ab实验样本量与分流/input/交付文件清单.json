@@ -5,6 +5,7 @@
     "202611_ab实验样本量与分流/README.md",
     "202611_ab实验样本量与分流/output/AB实验的样本量与流量规划.md",
     "202611_ab实验样本量与分流/docs/来源与核验.md",
+    "202611_ab实验样本量与分流/docs/置信区间的定义与构造.md",
     "202611_ab实验样本量与分流/scripts/ab_sample_size.py",
     "202611_ab实验样本量与分流/scripts/ab_result_demo.py",
     "202611_ab实验样本量与分流/intermediate/规划算例.json",
